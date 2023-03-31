@@ -1,54 +1,37 @@
-const searchContainer = document.querySelector('.search-input-box');
-const inputSearch = searchContainer.querySelector('input');
-const boxSuggestions = document.querySelector(
-    '.container-suggestions'
-);
+let buscador = document.getElementById("input_text");
+let sugerencias = document.getElementsByClassName("container-suggestions")[0];
 
-const searchLink = document.querySelector('a');
 
-inputSearch.onkeyup = e => {
-    let userData = e.target.value;
-    let emptyArray = [];
-
-    if (userData) {
-        emptyArray = suggestions.filter(data => {
-            return data
-                .toLocaleLowerCase()
-                .startsWith(userData.toLocaleLowerCase());
-        });
-
-        emptyArray = emptyArray.map(data => {
-            return (data = `<li>${data}</li>`);
-        });
-        searchContainer.classList.add('active');
-        showSuggestions(emptyArray);
-
-        let allList = boxSuggestions.querySelectorAll('li');
-
-        allList.forEach(li => {
-            li.setAttribute('onclick', 'select(this)');
-        });
-    } else {
-        searchContainer.classList.remove('active');
-    }
-};
-
-function select(element) {
-    let selectUserData = element.textContent;
-    inputSearch.value = selectUserData;
-
-    searchLink.href = `https://www.google.com/search?q=${inputSearch.value}`;
-    searchContainer.classList.remove('active');
+// Función para filtrar los caracteres especiales
+function filter(text) {
+    text = text.toLowerCase();
+    text = text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    text = text.replace(/\s/g, '');
+    text = text.trim();
+    return text;
 }
 
-const showSuggestions = list => {
-    let listData;
-
-    if (!list.length) {
-        userValue = inputSearch.value;
-        listData = `<li>${userValue}</li>`;
-    } else {
-        listData = list.join(' ');
+buscador.addEventListener("input", function() {
+    console.log(allChampions.length);
+    if (buscador.value.length === 0){
+        sugerencias.style.opacity = "0";
+        sugerencias.innerHTML = '';
+        return;
     }
-    boxSuggestions.innerHTML = listData;
-};
+    sugerencias.innerHTML = '';
+    for(let i=0; i<allChampions.length; i++){
+
+        if (filter(allChampions[i].nombre).startsWith(filter(buscador.value))){
+            sugerencias.style.opacity = "1";
+            sugerencias.innerHTML += "<div class='sugerencia'>\n" +
+                "    <div class='sugerencia_container1'>\n" +
+                "    <div class='champion_container'>" +
+                "        <img alt='champion' src=" + allChampions[i].img+ ">\n" +
+                "    </div>\n" +
+                "    <div class='titulo_artista_busq'>\n" +
+                "        <p><b>" + allChampions[i].nombre + "</b></p>" +
+                "    </div>\n" +
+                "</div>"
+
+    }}
+});
