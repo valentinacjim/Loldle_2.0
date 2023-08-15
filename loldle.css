@@ -110,36 +110,25 @@
     box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.12);
 }
 
-
-
-/*.search-input-box.active .container-suggestions {*/
-/*    opacity: 1;*/
-/*    pointer-events: auto;*/
-/*    padding: 10px 8px;*/
-/*}*/
-
-/*.search-input-box.active .container-suggestions li {*/
-/*    display: block;*/
-/*}*/
-
-.container-suggestions li {
-    list-style: none;
-    width: 100%;
-    padding: 8px 12px;
-    border-radius: 5px;
-    display: none;
+.sugerencia{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    height: 7.5em;
 }
 
-.container-suggestions li:hover{
-    background-color: #414b57;
+.sugerencia:hover{
+    background-color: #e19b1a;
+    /* color: #2f3640; */
+    cursor: pointer;
 }
 
 .champion_container{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 60%;
+    height: 70%;
     /*z-index: 1;*/
-    margin: 2em;
+    margin-left: 1em;
+    margin-top: 0.5em;
     /* border: #0e1a18; */
     /*left: 3em;*/
     /*overflow-y: hidden;*/
@@ -147,8 +136,6 @@
     /*grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 12% ;*/
     /*opacity: 0;*/
 }
-
-
 
 .champion_container img{
     /* position: absolute; */
@@ -162,15 +149,27 @@
     /* opacity: 0; */
 }
 
+.titulo_champion_busq{
+    /* position: relative; */
+    /* width: 25%; */
+    font-size: 3em;
+    /* color: #e19b1a; */
+    margin: 0;
+}
+
 .loldle-item{
-    height: 5em;
-    width: 5em;
+    height: 6em;
+    width: 6em;
     margin-left: 1em;
+    padding: auto;
     position: relative;
     text-align: center;
-    background-color: #0e1a18;
+    /* align-items: center; */
+    background-color: #ff0000;
     border: 1px solid #ffffff;
+    margin-bottom: 1em;
 }
+
 
 .loldle-item img{
     width: 100%;

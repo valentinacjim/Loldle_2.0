@@ -2,1783 +2,1783 @@ allChampions = [
     {
         nombre: "Aatrox",
         gender: "Male",
-        roles: "Top",
-        specie: "Darkin",
+        roles: ["Top"],
+        specie: ["Darkin"],
         resource: "Manaless",
         range: "Melee",
-        region: "Runeterra, Shurima",
+        region: ["Runeterra", "Shurima"],
         year: "2013",
-        img: "images/campeones/RiotX_ChampionList_aatrox.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_aatrox.jpg"
     },
     {
         nombre: "Ahri",
         gender: "Female",
-        roles: "Middle",
-        specie: "Vastayan",
+        roles: ["Middle"],
+        specie: ["Vastayan"],
         resource: "Mana ",
         range: "Ranged",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_ahri.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_ahri.jpg"
     },
     {
         nombre: "Akali",
         gender: "Female",
-        roles: "Middle, Top",
-        specie: "Human",
+        roles: ["Middle", "Top"],
+        specie: ["Human"],
         resource: "Energy",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_akali.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_akali.jpg"
     },
     {
         nombre: "Akshan",
         gender: "Male",
-        roles: "Middle, Top",
-        specie: "Human",
+        roles: ["Middle", "Top"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2021",
-        img: "images/campeones/RiotX_ChampionList_akshan_v2.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_akshan.jpg"
     },
     {
         nombre: "Alistar",
         gender: "Male",
-        roles: "Support",
-        specie: "Minotaur",
+        roles: ["Support"],
+        specie: ["Minotaur"],
         resource: "Mana",
         range: "Melee",
-        region: "Runeterra ",
+        region: ["Runeterra"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_alistar.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_alistar.jpg"
     },
     {
         nombre: "Amumu",
         gender: "Male",
-        roles: "Jungle, Support",
-        specie: "Undead, Yordle",
+        roles: ["Jungle", "Support"],
+        specie: ["Undead", "Yordle"],
         resource: "Mana",
         range: "Melee",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_amumu.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_amumu.jpg"
     },
     {
         nombre: "Anivia",
         gender: "Female",
-        roles: "Middle",
-        specie: "God, Spirit",
+        roles: ["Middle"],
+        specie: ["God", "Spirit"],
         resource: "Mana",
         range: "Ranged",
-        region: "Freljord",
+        region: ["Freljord"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_anivia.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_anivia.jpg"
     },
     {
         nombre: "Annie",
         gender: "Female",
-        roles: "Middle",
-        specie: "Human, Magicborn",
+        roles: ["Middle"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Noxus, Runeterra",
+        region: ["Noxus", "Runeterra"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_annie.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_annie.jpg"
     },
     {
         nombre: "Aphelios",
         gender: "Male",
-        roles: "Bottom",
-        specie: "Human, Spiritualist",
+        roles: ["Bottom"],
+        specie: ["Human", "Spiritualist"],
         resource: "Mana",
         range: "Ranged",
-        region: "Targon",
+        region: ["Targon"],
         year: "2019",
-        img: "images/campeones/Aphelios_0.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_aphelios.jpg"
     },
     {
         nombre: "Ashe",
         gender: "Female",
-        roles: "Bottom, Support",
-        specie: "Human, Iceborn",
+        roles: ["Bottom", "Support"],
+        specie: ["Human", "Iceborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Freljord",
+        region: ["Freljord"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_ashe.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_ashe.jpg"
     },
     {
         nombre: "Aurelion Sol",
         gender: "Male",
-        roles: "Middle",
-        specie: "Celestial, Dragon",
+        roles: ["Middle"],
+        specie: ["Celestial", "Dragon"],
         resource: "Mana",
         range: "Ranged",
-        region: "Runeterra, Targon",
+        region: ["Runeterra", "Targon"],
         year: "2016",
-        img: "images/campeones/RiotX_ChampionList_aurelionsol.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_aurelionsol.jpg"
     },
     {
         nombre: "Azir",
         gender: "Male",
-        roles: "Middle",
-        specie: "God-warrior",
+        roles: ["Middle"],
+        specie: ["God-warrior"],
         resource: "Mana",
         range: "Ranged",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2014",
-        img: "images/campeones/RiotX_ChampionList_azir.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_azir.jpg"
     },
     {
         nombre: "Bard",
         gender: "Male",
-        roles: "Support",
-        specie: "Celestial ",
+        roles: ["Support"],
+        specie: ["Celestial"],
         resource: "Mana",
         range: "Ranged",
-        region: "Runeterra",
+        region: ["Runeterra"],
         year: "2015",
-        img: "images/campeones/RiotX_ChampionList_bard.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_bard.jpg"
     },
     {
         nombre: "Bel'Veth",
         gender: "Female",
-        roles: "Jungle ",
-        specie: "Void-being",
+        roles: ["Jungle"],
+        specie: ["Void-being"],
         resource: "Manaless",
         range: "Melee",
-        region: "Void",
+        region: ["Void"],
         year: "2022",
-        img: "images/campeones/RiotX_ChampionList_belveth.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_belveth.jpg"
     },
     {
         nombre: "Blitzcrank",
         gender: "Other",
-        roles: "Support",
-        specie: "Golem",
+        roles: ["Support"],
+        specie: ["Golem"],
         resource: "Mana",
         range: "Melee",
-        region: "Zaun",
+        region: ["Zaun"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_blitzcrank.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_blitzcrank.jpg"
     },
     {
         nombre: "Brand",
         gender: "Male",
-        roles: "Support",
-        specie: "Human, Magically Altered",
+        roles: ["Support"],
+        specie: ["Human", "Magically Altered"],
         resource: "Mana",
         range: "Ranged",
-        region: "Runeterra",
+        region: ["Runeterra"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_brand.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_brand.jpg"
     },
     {
         nombre: "Braum",
         gender: "Male",
-        roles: "Support",
-        specie: "Human, Iceborn",
+        roles: ["Support"],
+        specie: ["Human", "Iceborn"],
         resource: "Mana",
         range: "Melee",
-        region: "Freljord",
+        region: ["Freljord"],
         year: "2014",
-        img: "images/campeones/RiotX_ChampionList_braum.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_braum.jpg"
     },
     {
         nombre: "Caitlyn",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Human",
+        roles: ["Bottom"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Piltover",
+        region: ["Piltover"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_caitlyn_v2.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_caitlyn.jpg"
     },
     {
         nombre: "Camille",
         gender: "Female",
-        roles: "Top",
-        specie: "Cyborg, Human",
+        roles: ["Top"],
+        specie: ["Cyborg", "Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Piltover",
+        region: ["Piltover"],
         year: "2016",
-        img: "images/campeones/RiotX_ChampionList_camille.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_camille.jpg"
     },
     {
         nombre: "Cassiopea",
         gender: "Female",
-        roles: "Middle ",
-        specie: "Human, Magically Altered",
+        roles: ["Middle"],
+        specie: ["Human", "Magically Altered"],
         resource: "Mana",
         range: "Ranged",
-        region: "Noxus, Shurima",
+        region: ["Noxus", "Shurima"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_cassiopea.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_cassiopeia.jpg"
     },
     {
         nombre: "Cho'Gath",
         gender: "Male",
-        roles: "Top",
-        specie: "Void-Being",
+        roles: ["Top"],
+        specie: ["Void-Being"],
         resource: "Mana",
         range: "Melee",
-        region: "Void",
+        region: ["Void"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_chogath.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_chogath.jpg"
     },
     {
         nombre: "Corki",
         gender: "Male",
-        roles: "Middle",
-        specie: "Yordle",
+        roles: ["Middle"],
+        specie: ["Yordle"],
         resource: "Mana",
         range: "Ranged",
-        region: "Bandle City",
+        region: ["Bandle City"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_corki.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_corki.jpg"
     },
     {
         nombre: "Darius",
         gender: "Male",
-        roles: "Top",
-        specie: "Human",
+        roles: ["Top"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Noxus",
+        region: ["Noxus"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_darius.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_darius.jpg"
     },
     {
         nombre: "Diana",
         gender: "Female",
-        roles: "Jungle, Middle",
-        specie: "Aspect, Human",
+        roles: ["Jungle", "Middle"],
+        specie: ["Aspect", "Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Targon",
+        region: ["Targon"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_diana.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_diana.jpg"
     },
     {
         nombre: "Dr. Mundo",
         gender: "Male",
-        roles: "Jungle, Top",
-        specie: "Chemically Altered, Human",
+        roles: ["Jungle", "Top"],
+        specie: ["Chemically Altered", "Human"],
         resource: "Health costs",
         range: "Melee",
-        region: "Zaun",
+        region: ["Zaun"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_drmundo_v2.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_drmundo.jpg"
     },
     {
         nombre: "Draven",
         gender: "Male",
-        roles: "Bottom",
-        specie: "Human",
+        roles: ["Bottom"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Noxus",
+        region: ["Noxus"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_draven.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_draven.jpg"
     },
     {
         nombre: "Ekko",
         gender: "Male",
-        roles: "Jungle, Middle",
-        specie: "Human",
+        roles: ["Jungle", "Middle"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Zaun",
+        region: ["Zaun"],
         year: "2015",
-        img: "images/campeones/RiotX_ChampionList_ekko.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_ekko.jpg"
     },
     {
         nombre: "Elise",
         gender: "Female",
-        roles: "Jungle",
-        specie: "Human, Magically Altered",
+        roles: ["Jungle"],
+        specie: ["Human", "Magically Altered"],
         resource: "Mana",
-        range: "Melee, Ranged",
-        region: "Noxus, Shadow Isles",
+        range: "Melee-Ranged",
+        region: ["Noxus", "Shadow Isles"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_elise.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_elise.jpg"
     },
     {
         nombre: "Evelynn",
         gender: "Female",
-        roles: "Jungle",
-        specie: "Demon, Spirit",
+        roles: ["Jungle"],
+        specie: ["Demon", "Spirit"],
         resource: "Mana",
         range: "Melee",
-        region: "Runeterra",
+        region: ["Runeterra"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_evelynn.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_evelynn.jpg"
     },
     {
         nombre: "Ezreal",
         gender: "Male",
-        roles: "Bottom",
-        specie: "Human, Magicborn",
+        roles: ["Bottom"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Piltover",
+        region: ["Piltover"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_ezreal.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_ezreal.jpg"
     },
     {
         nombre: "Fiddlesticks",
         gender: "Other",
-        roles: "Jungle",
-        specie: "Demon, Spirit",
+        roles: ["Jungle"],
+        specie: ["Demon", "Spirit"],
         resource: "Mana",
         range: "Ranged",
-        region: "Runeterra",
+        region: ["Runeterra"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_fiddlesticks_v2.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_fiddlesticks.jpg"
     },
     {
         nombre: "Fiora",
         gender: "Female",
-        roles: "Top",
-        specie: "Human",
+        roles: ["Top"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Demacia",
+        region: ["Demacia"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_fiora.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_fiora.jpg"
     },
     {
         nombre: "Fizz",
         gender: "Male",
-        roles: "Middle",
-        specie: "Yordle",
+        roles: ["Middle"],
+        specie: ["Yordle"],
         resource: "Mana",
         range: "Melee",
-        region: "Bilgewater",
+        region: ["Bilgewater"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_fizz.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_fizz.jpg"
     },
     {
         nombre: "Miss Fortune",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Human",
+        roles: ["Bottom"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Bilgewater",
+        region: ["Bilgewater"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_missfortune.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_missfortune.jpg"
     },
     {
         nombre: "Twisted Fate",
         gender: "Male",
-        roles: "Middle",
-        specie: "Human, Magicborn",
+        roles: ["Middle"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Bilgewater",
+        region: ["Bilgewater"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_twistedfate.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_twistedfate.jpg"
     },
     {
         nombre: "Galio",
         gender: "Male",
-        roles: "Middle, Support",
-        specie: "Golem",
+        roles: ["Middle", "Support"],
+        specie: ["Golem"],
         resource: "Mana",
         range: "Melee",
-        region: "Demacia",
+        region: ["Demacia"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_galio.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_galio.jpg"
     },
     {
         nombre: "Gangplank",
         gender: "Male",
-        roles: "Top",
-        specie: "Human",
+        roles: ["Top"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Bilgewater",
+        region: ["Bilgewater"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_gangplank.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_gangplank.jpg"
     },
     {
         nombre: "Garen",
         gender: "Male",
-        roles: "Top",
-        specie: "Human",
+        roles: ["Top"],
+        specie: ["Human"],
         resource: "Manaless",
         range: "Melee",
-        region: "Demacia",
+        region: ["Demacia"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_garen.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_garen.jpg"
     },
     {
         nombre: "Gnar",
         gender: "Male",
-        roles: "Top",
-        specie: "Yordle",
+        roles: ["Top"],
+        specie: ["Yordle"],
         resource: "Rage",
-        range: "Melee, Ranged",
-        region: "Freljord",
+        range: "Melee-Ranged",
+        region: ["Freljord"],
         year: "2014",
-        img: "images/campeones/RiotX_ChampionList_gnar.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_gnar.jpg"
     },
     {
         nombre: "Gragas",
         gender: "Male",
-        roles: "Jungle, Top",
-        specie: "Human",
+        roles: ["Jungle", "Top"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Freljord",
+        region: ["Freljord"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_gragas.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_gragas.jpg"
     },
     {
         nombre: "Graves",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Human",
+        roles: ["Jungle"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Bilgewater",
+        region: ["Bilgewater"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_graves.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_graves.jpg"
     },
     {
         nombre: "Gwen",
         gender: "Female",
-        roles: "Top",
-        specie: "Human, Magically Altered",
+        roles: ["Top"],
+        specie: ["Human", "Magically Altered"],
         resource: "Mana",
         range: "Melee",
-        region: "Camavor, Shadow Isles",
+        region: ["Camavor", "Shadow Isles"],
         year: "2021",
-        img: "images/campeones/RiotX_ChampionList_gwen.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_gwen.jpg"
     },
     {
         nombre: "Renata Glasc",
         gender: "Female",
-        roles: "Support",
-        specie: "Chemically Altered, Human",
+        roles: ["Support"],
+        specie: ["Chemically Altered", "Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Zaun",
+        region: ["Zaun"],
         year: "2022",
-        img: "images/campeones/RiotX_ChampionList_renata_glasc_v5.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_renata_glasc.jpg"
     },
     {
         nombre: "Hecarim",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Undead ",
+        roles: ["Jungle"],
+        specie: ["Undead"],
         resource: "Mana",
         range: "Melee",
-        region: "Camavor, Shadow Isles",
+        region: ["Camavor", "Shadow Isles"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_hecarim.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_hecarim.jpg"
     },
     {
         nombre: "Heimerdinger",
         gender: "Male",
-        roles: "Middle, Top",
-        specie: "Yordle",
+        roles: ["Middle", "Top"],
+        specie: ["Yordle"],
         resource: "Mana",
         range: "Ranged",
-        region: "Piltover",
+        region: ["Piltover"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_heimerdinger.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_heimerdinger.jpg"
     },
     {
         nombre: "Illaoi",
         gender: "Female",
-        roles: "Top",
-        specie: "Human, Spiritualist",
+        roles: ["Top"],
+        specie: ["Human", "Spiritualist"],
         resource: "Mana",
         range: "Melee",
-        region: "Bilgewater",
+        region: ["Bilgewater"],
         year: "2015",
-        img: "images/campeones/RiotX_ChampionList_illaoi.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_illaoi.jpg"
     },
     {
         nombre: "Irelia",
         gender: "Female",
-        roles: "Middle, Top",
-        specie: "Human, Spiritualist",
+        roles: ["Middle", "Top"],
+        specie: ["Human", "Spiritualist"],
         resource: "Mana",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_irelia.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_irelia.jpg"
     },
     {
         nombre: "Ivern",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Human, Magically Altered",
+        roles: ["Jungle"],
+        specie: ["Human", "Magically Altered"],
         resource: "Mana",
         range: "Ranged",
-        region: "Freljord, Ionia",
+        region: ["Freljord", "Ionia"],
         year: "2016",
-        img: "images/campeones/RiotX_ChampionList_ivern.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_ivern.jpg"
     },
     {
         nombre: "Jarvan IV",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Human",
+        roles: ["Jungle"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Demacia",
+        region: ["Demacia"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_jarvaniv.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_jarvaniv.jpg"
     },
     {
         nombre: "Janna",
         gender: "Female",
-        roles: "Support",
-        specie: "God, Spirit",
+        roles: ["Support"],
+        specie: ["God", "Spirit"],
         resource: "Mana",
         range: "Ranged",
-        region: "Shurima, Zaun",
+        region: ["Shurima", "Zaun"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_janna.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_janna.jpg"
     },
     {
         nombre: "Jax",
         gender: "Male",
-        roles: "Jungle, Top",
-        specie: "Unkown",
+        roles: ["Jungle", "Top"],
+        specie: ["Unkown"],
         resource: "Mana",
         range: "Melee",
-        region: "Icathia, Runeterra, Shurima",
+        region: ["Icathia", "Runeterra", "Shurima"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_jax.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_jax.jpg"
     },
     {
         nombre: "Jayce",
         gender: "Male",
-        roles: "Middle, Top",
-        specie: "Human",
+        roles: ["Middle", "Top"],
+        specie: ["Human"],
         resource: "Mana",
-        range: "Melee, Ranged",
-        region: "Piltover",
+        range: "Melee-Ranged",
+        region: ["Piltover"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_jayce.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_jayce.jpg"
     },
     {
         nombre: "Jhin",
         gender: "Male",
-        roles: "Bottom",
-        specie: "Human, Spiritualist",
+        roles: ["Bottom"],
+        specie: ["Human", "Spiritualist"],
         resource: "Mana",
         range: "Ranged",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2016",
-        img: "images/campeones/RiotX_ChampionList_jhin.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_jhin.jpg"
     },
     {
         nombre: "Jinx",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Chemically Altered, Human",
+        roles: ["Bottom"],
+        specie: ["Chemically Altered", "Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Zaun",
+        region: ["Zaun"],
         year: "2013",
-        img: "images/campeones/RiotX_ChampionList_jinx.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_jinx.jpg"
     },
     {
         nombre: "K'Sante",
         gender: "Male",
-        roles: "Top",
-        specie: "Human",
+        roles: ["Top"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2022",
-        img: "images/campeones/RiotX_ChampionList_ksante.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_ksante.jpg"
     },
     {
         nombre: "Kai'Sa",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Human, Void-Being",
+        roles: ["Bottom"],
+        specie: ["Human", "Void-Being"],
         resource: "Mana",
         range: "Ranged",
-        region: "Shurima, Void",
+        region: ["Shurima", "Void"],
         year: "2018",
-        img: "images/campeones/RiotX_ChampionList_kaisa.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_kaisa.jpg"
     },
     {
         nombre: "Kalista",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Undead",
+        roles: ["Bottom"],
+        specie: ["Undead"],
         resource: "Mana",
         range: "Ranged",
-        region: "Camavor, Shadow Isles",
+        region: ["Camavor", "Shadow Isles"],
         year: "2014",
-        img: "images/campeones/RiotX_ChampionList_kalista.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_kalista.jpg"
     },
     {
         nombre: "Karma",
         gender: "Female",
-        roles: "Support",
-        specie: "Human, Spiritualist",
+        roles: ["Support"],
+        specie: ["Human", "Spiritualist"],
         resource: "Mana",
         range: "Ranged",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_karma.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_karma.jpg"
     },
     {
         nombre: "Karthus",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Undead",
+        roles: ["Jungle"],
+        specie: ["Undead"],
         resource: "Mana",
         range: "Ranged",
-        region: "Noxus, Shadow Isles",
+        region: ["Noxus", "Shadow Isles"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_karthus.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_karthus.jpg"
     },
     {
         nombre: "Kassadin",
         gender: "Male",
-        roles: "Middle",
-        specie: "Human, Void-Being",
+        roles: ["Middle"],
+        specie: ["Human", "Void-Being"],
         resource: "Mana",
         range: "Melee",
-        region: "Shurima, Void",
+        region: ["Shurima", "Void"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_kassadin.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_kassadin.jpg"
     },
     {
         nombre: "Katarina",
         gender: "Female",
-        roles: "Middle",
-        specie: "Human",
+        roles: ["Middle"],
+        specie: ["Human"],
         resource: "Manaless",
         range: "Melee",
-        region: "Noxus",
+        region: ["Noxus"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_katarina.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_katarina.jpg"
     },
     {
         nombre: "Kayle",
         gender: "Female",
-        roles: "Top",
-        specie: "Aspect, Human, Magically Altered",
+        roles: ["Top"],
+        specie: ["Aspect", "Human", "Magically Altered"],
         resource: "Mana",
-        range: "Melee, Ranged",
-        region: "Demacia, Targon",
+        range: "Melee-Ranged",
+        region: ["Demacia", "Targon"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_kayle_v4.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_kayle.jpg"
     },
     {
         nombre: "Kayn",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Darkin, Human, Magically Altered",
+        roles: ["Jungle"],
+        specie: ["Darkin", "Human", "Magically Altered"],
         resource: "Mana",
         range: "Melee",
-        region: "Ionia, Noxus, Runeterra, Shurima",
+        region: ["Ionia", "Noxus", "Runeterra", "Shurima"],
         year: "2017",
-        img: "images/campeones/RiotX_ChampionList_kayn.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_kayn.jpg"
     },
     {
         nombre: "Kennen",
         gender: "Male",
-        roles: "Top",
-        specie: "Yordle",
+        roles: ["Top"],
+        specie: ["Yordle"],
         resource: "Energy",
         range: "Ranged",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_kennen.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_kennen.jpg"
     },
     {
         nombre: "Kha'Zix",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Void-being",
+        roles: ["Jungle"],
+        specie: ["Void-being"],
         resource: "Mana",
         range: "Melee",
-        region: "Void",
+        region: ["Void"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_khazix.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_khazix.jpg"
     },
     {
         nombre: "Kindred",
         gender: "Other",
-        roles: "Jungle",
-        specie: "God, Spirit",
+        roles: ["Jungle"],
+        specie: ["God", "Spirit"],
         resource: "Mana",
         range: "Ranged",
-        region: "Runeterra",
+        region: ["Runeterra"],
         year: "2015",
-        img: "images/campeones/RiotX_ChampionList_kindred.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_kindred.jpg"
     },
     {
         nombre: "Kled",
         gender: "Male",
-        roles: "Top",
-        specie: "Yordle",
+        roles: ["Top"],
+        specie: ["Yordle"],
         resource: "Courage",
         range: "Melee",
-        region: "Noxus",
+        region: ["Noxus"],
         year: "2016",
-        img: "images/campeones/RiotX_ChampionList_kled.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_kled.jpg"
     },
     {
         nombre: "Kog'Maw",
         gender: "Male",
-        roles: "Bottom",
-        specie: "Void-being",
+        roles: ["Bottom"],
+        specie: ["Void-being"],
         resource: "Mana",
         range: "Ranged",
-        region: "Void",
+        region: ["Void"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_kogmaw.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_kogmaw.jpg"
     },
     {
         nombre: "Tahm Kench",
         gender: "Male",
-        roles: "Support, Top",
-        specie: "Demon, Spirit",
+        roles: ["Support", "Top"],
+        specie: ["Demon", "Spirit"],
         resource: "Mana",
         range: "Melee",
-        region: "Bilgewater, Runeterra",
+        region: ["Bilgewater", "Runeterra"],
         year: "2015",
-        img: "images/campeones/RiotX_ChampionList_tahmkench.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_tahmkench.jpg"
     },
     {
         nombre: "LeBlanc",
         gender: "Female",
-        roles: "Middle",
-        specie: "Human, Magically Altered",
+        roles: ["Middle"],
+        specie: ["Human", "Magically Altered"],
         resource: "Mana",
         range: "Ranged",
-        region: "Noxus",
+        region: ["Noxus"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_leblanc.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_leblanc.jpg"
     },
     {
         nombre: "Lee Sin",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Human, Spiritualist",
+        roles: ["Jungle"],
+        specie: ["Human", "Spiritualist"],
         resource: "Energy",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_leesin.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_leesin.jpg"
     },
     {
         nombre: "Leona",
         gender: "Female",
-        roles: "Support",
-        specie: "Aspect, Human",
+        roles: ["Support"],
+        specie: ["Aspect", "Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Targon",
+        region: ["Targon"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_leona.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_leona.jpg"
     },
     {
         nombre: "Lillia",
         gender: "Female",
-        roles: "Jungle, Top",
-        specie: "Spirit",
+        roles: ["Jungle", "Top"],
+        specie: ["Spirit"],
         resource: "Mana",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2020",
-        img: "images/campeones/Lillia_0.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_lillia.jpg"
     },
     {
         nombre: "Lissandra",
         gender: "Female",
-        roles: "Middle",
-        specie: "Human, Iceborn",
+        roles: ["Middle"],
+        specie: ["Human", "Iceborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Frejlord",
+        region: ["Frejlord"],
         year: "2013",
-        img: "images/campeones/RiotX_ChampionList_lissandra.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_lissandra.jpg"
     },
     {
         nombre: "Lucian",
         gender: "Male",
-        roles: "Bottom",
-        specie: "Human",
+        roles: ["Bottom"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Demacia, Shadown Isles",
+        region: ["Demacia", "Shadow Isles"],
         year: "2013",
-        img: "images/campeones/RiotX_ChampionList_lucian.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_lucian.jpg"
     },
     {
         nombre: "Lulu",
         gender: "Female",
-        roles: "Support",
-        specie: "Yordle",
+        roles: ["Support"],
+        specie: ["Yordle"],
         resource: "Mana",
         range: "Ranged",
-        region: "Bandle City",
+        region: ["Bandle City"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_lulu.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_lulu.jpg"
     },
     {
         nombre: "Lux",
         gender: "Female",
-        roles: "Middle, Support",
-        specie: "Human, Magicborn",
+        roles: ["Middle", "Support"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Demacia",
+        region: ["Demacia"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_lux.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_lux.jpg"
     },
     {
         nombre: "Malphite",
         gender: "Male",
-        roles: "Top",
-        specie: "Golem",
+        roles: ["Top"],
+        specie: ["Golem"],
         resource: "Mana",
         range: "Melee",
-        region: "Ixtal, Shurima",
+        region: ["Ixtal", "Shurima"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_malaphite.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_malphite.jpg"
     },
     {
         nombre: "Malzahar",
         gender: "Male",
-        roles: "Middle",
-        specie: "Human, Void-Being",
+        roles: ["Middle"],
+        specie: ["Human", "Void-Being"],
         resource: "Mana",
         range: "Ranged",
-        region: "Shurima, Void",
+        region: ["Shurima", "Void"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_malzahar.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_malzahar.jpg"
     },
     {
         nombre: "Maokai",
         gender: "Male",
-        roles: "Jungle, Support",
-        specie: "Spirit",
+        roles: ["Jungle", "Support"],
+        specie: ["Spirit"],
         resource: "Mana",
         range: "Melee",
-        region: "Shadow Isles",
+        region: ["Shadow Isles"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_maokai.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_maokai.jpg"
     },
     {
         nombre: "Master Yi",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Human, Spiritualist",
+        roles: ["Jungle"],
+        specie: ["Human", "Spiritualist"],
         resource: "Mana",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_masteryi.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_masteryi.jpg"
     },
     {
         nombre: "Mordekaiser",
         gender: "Male",
-        roles: "Top",
-        specie: "Revenant",
+        roles: ["Top"],
+        specie: ["Revenant"],
         resource: "Shield",
         range: "Melee",
-        region: "Noxua",
+        region: ["Noxus"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_mordekaiser_v2.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_mordekaiser.jpg"
     },
     {
         nombre: "Morgana",
         gender: "Female",
-        roles: "Support",
-        specie: "Aspect, Human, Magically Altered",
+        roles: ["Support"],
+        specie: ["Aspect", "Human", "Magically Altered"],
         resource: "Mana",
         range: "Ranged",
-        region: "Demacia, Targon",
+        region: ["Demacia", "Targon"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_morgana.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_morgana.jpg"
     },
     {
         nombre: "Nami",
         gender: "Female",
-        roles: "Support",
-        specie: "Vastayan",
+        roles: ["Support"],
+        specie: ["Vastayan"],
         resource: "Mana",
         range: "Ranged",
-        region: "Runeterra",
+        region: ["Runeterra"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_nami.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_nami.jpg"
     },
     {
         nombre: "Nasus",
         gender: "Male",
-        roles: "Top",
-        specie: "God-warrior",
+        roles: ["Top"],
+        specie: ["God-warrior"],
         resource: "Mana",
         range: "Melee",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_nasus.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_nasus.jpg"
     },
     {
         nombre: "Nautilus",
         gender: "Male",
-        roles: "Support",
-        specie: "Revenant",
+        roles: ["Support"],
+        specie: ["Revenant"],
         resource: "Mana",
         range: "Melee",
-        region: "Bilgewater",
+        region: ["Bilgewater"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_nautilus.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_nautilus.jpg"
     },
     {
         nombre: "Neeko",
         gender: "Female",
-        roles: "Middle, Support",
-        specie: "Vastayan",
+        roles: ["Middle", "Support"],
+        specie: ["Vastayan"],
         resource: "Mana",
         range: "Ranged",
-        region: "Ixtal ",
+        region: ["Ixtal"],
         year: "2018",
-        img: "images/campeones/RiotX_ChampionList_neeko.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_neeko.jpg"
     },
     {
         nombre: "Nidalee",
         gender: "Female",
-        roles: "Jungle",
-        specie: "Human, Spiritualist",
+        roles: ["Jungle"],
+        specie: ["Human", "Spiritualist"],
         resource: "Mana",
-        range: "Melee, Ranged",
-        region: "Ixtal",
+        range: "Melee-Ranged",
+        region: ["Ixtal"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_nidalee.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_nidalee.jpg"
     },
     {
         nombre: "Nilah",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Human, Magically Altered",
+        roles: ["Bottom"],
+        specie: ["Human", "Magically Altered"],
         resource: "Mana",
         range: "Melee",
-        region: "Bilgewater",
+        region: ["Bilgewater"],
         year: "2022",
-        img: "images/campeones/RiotX_ChampionList_nilah.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_nilah.jpg"
     },
     {
         nombre: "Nocturne",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Demon, Spirit",
+        roles: ["Jungle"],
+        specie: ["Demon", "Spirit"],
         resource: "Mana",
         range: "Melee",
-        region: "Runeterra",
+        region: ["Runeterra"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_nocturne.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_nocturne.jpg"
     },
     {
         nombre: "Nunu & Willump",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Human, Yeti",
+        roles: ["Jungle"],
+        specie: ["Human", "Yeti"],
         resource: "Mana",
         range: "Melee",
-        region: "Frejlord",
+        region: ["Frejlord"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_nunu.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_nunu.jpg"
     },
     {
         nombre: "Olaf",
         gender: "Male",
-        roles: "Jungle, Top",
-        specie: "Human, Iceborn",
+        roles: ["Jungle", "Top"],
+        specie: ["Human", "Iceborn"],
         resource: "Mana",
         range: "Melee",
-        region: "Frejlord",
+        region: ["Frejlord"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_olaf.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_olaf.jpg"
     },
     {
         nombre: "Orianna",
         gender: "Female",
-        roles: "Middle",
-        specie: "Golem",
+        roles: ["Middle"],
+        specie: ["Golem"],
         resource: "Mana",
         range: "Ranged",
-        region: "Piltover",
+        region: ["Piltover"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_orianna.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_orianna.jpg"
     },
     {
         nombre: "Ornn",
         gender: "Male",
-        roles: "Top",
-        specie: "God, Spirit",
+        roles: ["Top"],
+        specie: ["God", "Spirit"],
         resource: "Mana",
         range: "Melee",
-        region: "Frejlord",
+        region: ["Frejlord"],
         year: "2017",
-        img: "images/campeones/RiotX_ChampionList_ornn.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_ornn.jpg"
     },
     {
         nombre: "Pantheon",
         gender: "Male",
-        roles: "Jungle, Middle, Support",
-        specie: "Aspect, Human",
+        roles: ["Jungle", "Middle", "Support"],
+        specie: ["Aspect", "Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Targon",
+        region: ["Targon"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_pantheon.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_pantheon.jpg"
     },
     {
         nombre: "Poppy",
         gender: "Female",
-        roles: "Jungle, Top",
-        specie: "Yordle",
+        roles: ["Jungle", "Top"],
+        specie: ["Yordle"],
         resource: "Mana",
         range: "Melee",
-        region: "Demacia",
+        region: ["Demacia"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_poppy.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_poppy.jpg"
     },
     {
         nombre: "Pyke",
         gender: "Male",
-        roles: "Support",
-        specie: "Revenant",
+        roles: ["Support"],
+        specie: ["Revenant"],
         resource: "Mana",
         range: "Melee",
-        region: "Bilgewater",
+        region: ["Bilgewater"],
         year: "2018",
-        img: "images/campeones/RiotX_ChampionList_pyke.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_pyke.jpg"
     },
     {
         nombre: "Qiyana",
         gender: "Female",
-        roles: "Jungle, Middle",
-        specie: "Human, Magicborn",
+        roles: ["Jungle", "Middle"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Melee",
-        region: "Ixtal",
+        region: ["Ixtal"],
         year: "2019",
-        img: "images/campeones/RiotX_ChampionList_qiyana.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_qiyana.jpg"
     },
     {
         nombre: "Quinn",
         gender: "Female",
-        roles: "Top",
-        specie: "Human",
+        roles: ["Top"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Demacia",
+        region: ["Demacia"],
         year: "2013",
-        img: "images/campeones/RiotX_ChampionList_quinn.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_quinn.jpg"
     },
     {
         nombre: "Rakan",
         gender: "Male",
-        roles: "Support",
-        specie: "Vastayan",
+        roles: ["Support"],
+        specie: ["Vastayan"],
         resource: "Mana",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2017",
-        img: "images/campeones/RiotX_ChampionList_rakan.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_rakan.jpg"
     },
     {
         nombre: "Rammus",
         gender: "Male",
-        roles: "Jungle",
-        specie: "God-warrior",
+        roles: ["Jungle"],
+        specie: ["God-warrior"],
         resource: "Mana",
         range: "Melee",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_rammus.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_rammus.jpg"
     },
     {
         nombre: "Rek'Sai",
         gender: "Female",
-        roles: "Jungle",
-        specie: "Void-being",
+        roles: ["Jungle"],
+        specie: ["Void-being"],
         resource: "Rage",
         range: "Melee",
-        region: "Shurima, Void",
+        region: ["Shurima", "Void"],
         year: "2014",
-        img: "images/campeones/RiotX_ChampionList_reksai.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_reksai.jpg"
     },
     {
         nombre: "Rell",
         gender: "Female",
-        roles: "Support",
-        specie: "Human, Magically Altered, Magicborn",
+        roles: ["Support"],
+        specie: ["Human", "Magically Altered", "Magicborn"],
         resource: "Mana",
         range: "Melee",
-        region: "Noxus",
+        region: ["Noxus"],
         year: "2020",
-        img: "images/campeones/RiotX_ChampionList_Rell_v2.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_rell.jpg"
     },
     {
         nombre: "Renekton",
         gender: "Male",
-        roles: "Top",
-        specie: "God-warrior",
+        roles: ["Top"],
+        specie: ["God-warrior"],
         resource: "Fury",
         range: "Melee",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_renekton.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_renekton.jpg"
     },
     {
         nombre: "Rengar",
         gender: "Male",
-        roles: "Jungle, Top",
-        specie: "Vastayan",
+        roles: ["Jungle", "Top"],
+        specie: ["Vastayan"],
         resource: "Ferocity",
         range: "Melee",
-        region: "Ixtal, Shurima",
+        region: ["Ixtal", "Shurima"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_rengar.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_rengar.jpg"
     },
     {
         nombre: "Riven",
         gender: "Female",
-        roles: "Top",
-        specie: "Human",
+        roles: ["Top"],
+        specie: ["Human"],
         resource: "Manaless",
         range: "Melee",
-        region: "Ionia, Noxus ",
+        region: ["Ionia", "Noxus"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_riven.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_riven.jpg"
     },
     {
         nombre: "Rumble",
         gender: "Male",
-        roles: "Middle, Top",
-        specie: "Yordle",
+        roles: ["Middle", "Top"],
+        specie: ["Yordle"],
         resource: "Heat",
         range: "Melee",
-        region: "Bandle City",
+        region: ["Bandle City"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_rumble.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_rumble.jpg"
     },
     {
         nombre: "Ryze",
         gender: "Male",
-        roles: "Middle, Top",
-        specie: "Human, Magically Altered",
+        roles: ["Middle", "Top"],
+        specie: ["Human", "Magically Altered"],
         resource: "Mana",
         range: "Ranged",
-        region: "Runeterra",
+        region: ["Runeterra"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_ryze.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_ryze.jpg"
     },
     {
         nombre: "Samira",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Human",
+        roles: ["Bottom"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Noxus, Shurima",
+        region: ["Noxus", "Shurima"],
         year: "2020",
-        img: "images/campeones/RiotX_ChampionList_Samira_0.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_samira.jpg"
     },
     {
         nombre: "Sejuani",
         gender: "Female",
-        roles: "Jungle, Top",
-        specie: "Human, Iceborn",
+        roles: ["Jungle", "Top"],
+        specie: ["Human", "Iceborn"],
         resource: "Mana",
         range: "Melee",
-        region: "Frejlord",
+        region: ["Frejlord"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_sejuani.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_sejuani.jpg"
     },
     {
         nombre: "Senna",
         gender: "Female",
-        roles: "Support",
-        specie: "Human, Undead",
+        roles: ["Support"],
+        specie: ["Human", "Undead"],
         resource: "Mana",
         range: "Ranged",
-        region: "Shadow Isles",
+        region: ["Shadow Isles"],
         year: "2019",
-        img: "images/campeones/RiotX_ChampionList_senna.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_senna.jpg"
     },
     {
         nombre: "Seraphine",
         gender: "Female",
-        roles: "Support",
-        specie: "Human, Magicborn",
+        roles: ["Support"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Piltover, Zaun",
+        region: ["Piltover", "Zaun"],
         year: "2020",
-        img: "images/campeones/Seraphine_0.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_seraphine.jpg"
     },
     {
         nombre: "Sett",
         gender: "Male",
-        roles: "Top",
-        specie: "Human, Vastayan",
+        roles: ["Top"],
+        specie: ["Human", "Vastayan"],
         resource: "Grit",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2020",
-        img: "images/campeones/Sett_0.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_sett.jpg"
     },
     {
         nombre: "Shaco",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Spirit",
+        roles: ["Jungle"],
+        specie: ["Spirit"],
         resource: "Mana",
         range: "Melee",
-        region: "Runeterra",
+        region: ["Runeterra"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_shaco.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_shaco.jpg"
     },
     {
         nombre: "Shen",
         gender: "Male",
-        roles: "Top",
-        specie: "Human, Spiritualist",
+        roles: ["Top"],
+        specie: ["Human", "Spiritualist"],
         resource: "Energy",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_shen.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_shen.jpg"
     },
     {
         nombre: "Shyvana",
         gender: "Female",
-        roles: "Jungle",
-        specie: "Demon, Magically Altered",
+        roles: ["Jungle"],
+        specie: ["Demon", "Magically Altered"],
         resource: "Fury",
         range: "Melee",
-        region: "Demacia",
+        region: ["Demacia"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_shyvana.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_shyvana.jpg"
     },
     {
         nombre: "Singed",
         gender: "Male",
-        roles: "Top",
-        specie: "Chemically Altered, Human",
+        roles: ["Top"],
+        specie: ["Chemically Altered", "Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Piltover, Zaun",
+        region: ["Piltover", "Zaun"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_singed.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_singed.jpg"
     },
     {
         nombre: "Sion",
         gender: "Male",
-        roles: "Top",
-        specie: "Revenant",
+        roles: ["Top"],
+        specie: ["Revenant"],
         resource: "Mana",
         range: "Melee",
-        region: "Noxus",
+        region: ["Noxus"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_sion.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_sion.jpg"
     },
     {
         nombre: "Sivir",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Human",
+        roles: ["Bottom"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_sivir.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_sivir.jpg"
     },
     {
         nombre: "Skarner",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Brackern",
+        roles: ["Jungle"],
+        specie: ["Brackern"],
         resource: "Mana",
         range: "Melee",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_skarner.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_skarner.jpg"
     },
     {
         nombre: "Sona",
         gender: "Female",
-        roles: "Support",
-        specie: "Human, Magicborn",
+        roles: ["Support"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Demacia, Ionia",
+        region: ["Demacia", "Ionia"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_sona.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_sona.jpg"
     },
     {
         nombre: "Soraka",
         gender: "Female",
-        roles: "Support",
-        specie: "Celestial",
+        roles: ["Support"],
+        specie: ["Celestial"],
         resource: "Mana",
         range: "Ranged",
-        region: "Ionia, Targon",
+        region: ["Ionia", "Targon"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_soraka.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_soraka.jpg"
     },
     {
         nombre: "Swain",
         gender: "Male",
-        roles: "Middle, Support",
-        specie: "Human, Magically Altered",
+        roles: ["Middle", "Support"],
+        specie: ["Human", "Magically Altered"],
         resource: "Mana",
         range: "Ranged",
-        region: "Noxus",
+        region: ["Noxus"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_swain.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_swain.jpg"
     },
     {
         nombre: "Sylas",
         gender: "Male",
-        roles: "Middle",
-        specie: "Human, Magicborn",
+        roles: ["Middle"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Melee",
-        region: "Demacia, Freljord",
+        region: ["Demacia", "Freljord"],
         year: "2019",
-        img: "images/campeones/RiotX_ChampionList_sylas.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_sylas.jpg"
     },
     {
         nombre: "Syndra",
         gender: "Female",
-        roles: "Middle",
-        specie: "Human, Magicborn",
+        roles: ["Middle"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_syndra.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_syndra.jpg"
     },
     {
         nombre: "Taliyah",
         gender: "Female",
-        roles: "Jungle, Middle",
-        specie: "Human, Magicborn",
+        roles: ["Jungle", "Middle"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2016",
-        img: "images/campeones/RiotX_ChampionList_ialiyah.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_taliyah.jpg"
     },
     {
         nombre: "Talon",
         gender: "Male",
-        roles: "Jungle, Middle",
-        specie: "Human",
+        roles: ["Jungle", "Middle"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Noxus",
+        region: ["Noxus"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_talon.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_talon.jpg"
     },
     {
         nombre: "Taric",
         gender: "Male",
-        roles: "Support",
-        specie: "Aspect, Human",
+        roles: ["Support"],
+        specie: ["Aspect", "Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Demacia, Targon",
+        region: ["Demacia", "Targon"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_taric.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_taric.jpg"
     },
     {
         nombre: "Teemo",
         gender: "Male",
-        roles: "Top",
-        specie: "Yordle",
+        roles: ["Top"],
+        specie: ["Yordle"],
         resource: "Mana",
         range: "Ranged",
-        region: "Bandle City",
+        region: ["Bandle City"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_teemo.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_teemo.jpg"
     },
     {
         nombre: "Thresh",
         gender: "Male",
-        roles: "Support",
-        specie: "Undead",
+        roles: ["Support"],
+        specie: ["Undead"],
         resource: "Mana",
         range: "Ranged",
-        region: "Shadow Isles",
+        region: ["Shadow Isles"],
         year: "2013",
-        img: "images/campeones/RiotX_ChampionList_thresh.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_thresh.jpg"
     },
     {
         nombre: "Tristana",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Yordle",
+        roles: ["Bottom"],
+        specie: ["Yordle"],
         resource: "Mana",
         range: "Ranged",
-        region: "Bandle City",
+        region: ["Bandle City"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_tristana.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_tristana.jpg"
     },
     {
         nombre: "Trundle",
         gender: "Male",
-        roles: "Jungle, Top",
-        specie: "Iceborn, Troll",
+        roles: ["Jungle", "Top"],
+        specie: ["Iceborn", "Troll"],
         resource: "Mana",
         range: "Melee",
-        region: "Freljord",
+        region: ["Freljord"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_trundle.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_trundle.jpg"
     },
     {
         nombre: "Tryndamere",
         gender: "Male",
-        roles: "Top",
-        specie: "Human, Magically Altered",
+        roles: ["Top"],
+        specie: ["Human", "Magically Altered"],
         resource: "Fury",
         range: "Melee",
-        region: "Freljord",
+        region: ["Freljord"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_tryndamere.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_tryndamere.jpg"
     },
     {
         nombre: "Twitch",
         gender: "Male",
-        roles: "Bottom",
-        specie: "Chemically Altered, Rat",
+        roles: ["Bottom"],
+        specie: ["Chemically Altered", "Rat"],
         resource: "Mana",
         range: "Ranged",
-        region: "Zaun",
+        region: ["Zaun"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_twitch.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_twitch.jpg"
     },
     {
         nombre: "Udyr",
         gender: "Male",
-        roles: "Jungle, Top",
-        specie: "Human, Spiritualist",
+        roles: ["Jungle", "Top"],
+        specie: ["Human", "Spiritualist"],
         resource: "Mana",
         range: "Melee",
-        region: "Freljord, Ionia",
+        region: ["Freljord", "Ionia"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_udyr_v2.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_udyr.jpg"
     },
     {
         nombre: "Urgot",
         gender: "Male",
-        roles: "Top",
-        specie: "Chemically Altered, Cyborg, Human",
+        roles: ["Top"],
+        specie: ["Chemically Altered", "Cyborg", "Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Noxus, Zaun",
+        region: ["Noxus", "Zaun"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_urgot.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_urgot.jpg"
     },
     {
         nombre: "Varus",
         gender: "Male",
-        roles: "Bottom, Middle",
-        specie: "Darkin, Human ",
+        roles: ["Bottom", "Middle"],
+        specie: ["Darkin", "Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Ionia, Runeterra, Shurima",
+        region: ["Ionia", "Runeterra", "Shurima"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_varus.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_varus.jpg"
     },
     {
         nombre: "Vayne",
         gender: "Female",
-        roles: "Bottom, Top",
-        specie: "Human",
+        roles: ["Bottom", "Top"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Demacia",
+        region: ["Demacia"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_vayne.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_vayne.jpg"
     },
     {
         nombre: "Veigar",
         gender: "Male",
-        roles: "Middle",
-        specie: "Yordle",
+        roles: ["Middle"],
+        specie: ["Yordle"],
         resource: "Mana",
         range: "Ranged",
-        region: "Bandle City, Runeterra",
+        region: ["Bandle City", "Runeterra"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_veigar.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_veigar.jpg"
     },
     {
         nombre: "Vel'Koz",
         gender: "Male",
-        roles: "Middle, Support",
-        specie: "Void-being",
+        roles: ["Middle", "Support"],
+        specie: ["Void-being"],
         resource: "Mana",
         range: "Ranged",
-        region: "Void",
+        region: ["Void"],
         year: "2014",
-        img: "images/campeones/RiotX_ChampionList_velkoz.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_velkoz.jpg"
     },
     {
         nombre: "Vex",
         gender: "Female",
-        roles: "Middle",
-        specie: "Yordle",
+        roles: ["Middle"],
+        specie: ["Yordle"],
         resource: "Mana",
         range: "Ranged",
-        region: "Bandle City, Shadow Isles",
+        region: ["Bandle City", "Shadow Isles"],
         year: "2021",
-        img: "images/campeones/RiotX_ChampionList_vex.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_vex.jpg"
     },
     {
         nombre: "Vi",
         gender: "Female",
-        roles: "Jungle",
-        specie: "Human",
+        roles: ["Jungle"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Piltover, Zaun",
+        region: ["Piltover", "Zaun"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_vi.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_vi.jpg"
     },
     {
         nombre: "Viego",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Undead",
+        roles: ["Jungle"],
+        specie: ["Undead"],
         resource: "Manaless",
         range: "Melee",
-        region: "Camavor, Shadow Isles",
+        region: ["Camavor", "Shadow Isles"],
         year: "2021",
-        img: "images/campeones/RiotX_ChampionList_viego.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_viego.jpg"
     },
     {
         nombre: "Viktor",
         gender: "Male",
-        roles: "Middle",
-        specie: "Cyborg, Human",
+        roles: ["Middle"],
+        specie: ["Cyborg", "Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Piltover, Zaun",
+        region: ["Piltover", "Zaun"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_viktor.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_viktor.jpg"
     },
     {
         nombre: "Vladimir",
         gender: "Male",
-        roles: "Middle",
-        specie: "Human, Magically Altered",
+        roles: ["Middle"],
+        specie: ["Human", "Magically Altered"],
         resource: "Bloodthirst",
         range: "Ranged",
-        region: "Camavor, Noxus, Shadow Isles",
+        region: ["Camavor", "Noxus", "Shadow Isles"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_vladimir.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_vladimir.jpg"
     },
     {
         nombre: "Volibear",
         gender: "Male",
-        roles: "Jungle, Top",
-        specie: "God, Spirit",
+        roles: ["Jungle", "Top"],
+        specie: ["God", "Spirit"],
         resource: "Mana",
         range: "Melee",
-        region: "Freljord",
+        region: ["Freljord"],
         year: "2011",
-        img: "images/campeones/Volibear_0.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_volibear.jpg"
     },
     {
         nombre: "Warwick",
         gender: "Male",
-        roles: "Jungle, Top",
-        specie: "Chemically Altered, Cyborg, Human",
+        roles: ["Jungle", "Top"],
+        specie: ["Chemically Altered", "Cyborg", "Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Zaun",
+        region: ["Zaun"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_warwick.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_warwick.jpg"
     },
     {
         nombre: "Wukong",
         gender: "Male",
-        roles: "Jungle, Top",
-        specie: "Vastayan",
+        roles: ["Jungle", "Top"],
+        specie: ["Vastayan"],
         resource: "Mana",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_monkeyking.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_wukong.jpg"
     },
     {
         nombre: "Xayah",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Vastayan",
+        roles: ["Bottom"],
+        specie: ["Vastayan"],
         resource: "Mana",
         range: "Ranged",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2017",
-        img: "images/campeones/RiotX_ChampionList_xayah.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_xayah.jpg"
     },
     {
         nombre: "Xerath",
         gender: "Male",
-        roles: "Middle, Support",
-        specie: "God-warrior",
+        roles: ["Middle", "Support"],
+        specie: ["God-warrior"],
         resource: "Mana",
         range: "Ranged",
-        region: "Shurima",
+        region: ["Shurima"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_xeratth.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_xeratth.jpg"
     },
     {
         nombre: "Xin Zhao",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Human",
+        roles: ["Jungle"],
+        specie: ["Human"],
         resource: "Mana",
         range: "Melee",
-        region: "Demacia, Ionia, Noxus",
+        region: ["Demacia", "Ionia", "Noxus"],
         year: "2010",
-        img: "images/campeones/RiotX_ChampionList_xinzhao.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_xinzhao.jpg"
     },
     {
         nombre: "Yasuo",
         gender: "Male",
-        roles: "Middle",
-        specie: "Human, Magicborn",
+        roles: ["Middle"],
+        specie: ["Human", "Magicborn"],
         resource: "Flow",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2013",
-        img: "images/campeones/RiotX_ChampionList_yasuo.jpg"
+        img: "Images/Campeones/RiotX_ChampionList_yasuo.jpg"
     },
     {
         nombre: "Yone",
         gender: "Male",
-        roles: "Middle, Top",
-        specie: "Human, Magically Altered",
+        roles: ["Middle", "Top"],
+        specie: ["Human", "Magically Altered"],
         resource: "Manaless",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2020",
-        img: "images/campeones/RiotX_ChampionList_aatrox"
+        img: "Images/Campeones/RiotX_ChampionList_yone.jpg"
     },
     {
         nombre: "Yorick",
         gender: "Male",
-        roles: "Top",
-        specie: "Human, Magically Altered",
+        roles: ["Top"],
+        specie: ["Human", "Magically Altered"],
         resource: "Mana",
         range: "Melee",
-        region: "Shadow Isles",
+        region: ["Shadow Isles"],
         year: "2011",
-        img: "images/campeones/RiotX_ChampionList_aatrox"
+        img: "Images/Campeones/RiotX_ChampionList_yorick.jpg"
     },
     {
         nombre: "Yuumi",
         gender: "Female",
-        roles: "Support",
-        specie: "Cat, Magically Altered",
+        roles: ["Support"],
+        specie: ["Cat", "Magically Altered"],
         resource: "Mana",
         range: "Ranged",
-        region: "Bandle City",
+        region: ["Bandle City"],
         year: "2019",
-        img: "images/campeones/RiotX_ChampionList_aatrox"
+        img: "Images/Campeones/RiotX_ChampionList_yuumi.jpg"
     },
     {
         nombre: "Zac",
         gender: "Male",
-        roles: "Jungle",
-        specie: "Golem",
+        roles: ["Jungle"],
+        specie: ["Golem"],
         resource: "Health costs",
         range: "Melee",
-        region: "Zaun",
+        region: ["Zaun"],
         year: "2013",
-        img: "images/campeones/RiotX_ChampionList_aatrox"
+        img: "Images/Campeones/RiotX_ChampionList_zac.jpg"
     },
     {
         nombre: "Zed",
         gender: "Male",
-        roles: "Middle",
-        specie: "Human, Magically Altered",
+        roles: ["Middle"],
+        specie: ["Human", "Magically Altered"],
         resource: "Energy",
         range: "Melee",
-        region: "Ionia",
+        region: ["Ionia"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_aatrox"
+        img: "Images/Campeones/RiotX_ChampionList_zed.jpg"
     },
     {
         nombre: "Zeri",
         gender: "Female",
-        roles: "Bottom",
-        specie: "Human, Magicborn",
+        roles: ["Bottom"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Zaun",
+        region: ["Zaun"],
         year: "2022",
-        img: "images/campeones/RiotX_ChampionList_aatrox"
+        img: "Images/Campeones/RiotX_ChampionList_zoe.jpg"
     },
     {
         nombre: "Ziggs",
         gender: "Male",
-        roles: "Bottom, Middle",
-        specie: "Yordle",
+        roles: ["Bottom", "Middle"],
+        specie: ["Yordle"],
         resource: "Mana",
         range: "Ranged",
-        region: "Piltover, Zaun",
+        region: ["Piltover", "Zaun"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_aatrox"
+        img: "Images/Campeones/RiotX_ChampionList_ziggs.jpg"
     },
     {
         nombre: "Zilean",
         gender: "Male",
-        roles: "Support",
-        specie: "Human, Magicborn",
+        roles: ["Support"],
+        specie: ["Human", "Magicborn"],
         resource: "Mana",
         range: "Ranged",
-        region: "Icathia, Runeterra, Shurima",
+        region: ["Icathia", "Runeterra", "Shurima"],
         year: "2009",
-        img: "images/campeones/RiotX_ChampionList_aatrox"
+        img: "Images/Campeones/RiotX_ChampionList_zilean.jpg"
     },
     {
         nombre: "Zoe",
         gender: "Female",
-        roles: "Middle",
-        specie: "Aspect, Human",
+        roles: ["Middle"],
+        specie: ["Aspect", "Human"],
         resource: "Mana",
         range: "Ranged",
-        region: "Targon",
+        region: ["Targon"],
         year: "2017",
-        img: "images/campeones/RiotX_ChampionList_aatrox"
+        img: "Images/Campeones/RiotX_ChampionList_zoe.jpg"
     },
     {
         nombre: "Zyra",
         gender: "Female",
-        roles: "Support",
-        specie: "Unkown",
+        roles: ["Support"],
+        specie: ["Unkown"],
         resource: "Mana",
         range: "Ranged",
-        region: "Ixtal",
+        region: ["Ixtal"],
         year: "2012",
-        img: "images/campeones/RiotX_ChampionList_aatrox"
+        img: "Images/Campeones/RiotX_ChampionList_zyra.jpg"
     }
-]
+]   
