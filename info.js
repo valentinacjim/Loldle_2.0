@@ -1782,3 +1782,70 @@ allChampions = [
         img: "Images/Campeones/RiotX_ChampionList_zyra.jpg"
     }
 ]   
+
+
+allQuotes = [
+
+    {
+        champion: "Aatrox",
+        quotes: [
+            "Now, hear the silence of annihilation!",
+            "Let me end this!",
+            "They think me defeated, enchained. But I am unbowed... Noble is this carnage.",
+            "I am your reckoner, mortals.",
+            "Challenge me, mortals! I am here!",
+            "Am I the abyss? Or did I gaze into it?",
+            "I am not a king, I am not a god, I am... worse...",
+            "I am doom!",
+            "This violence shall amuse!",
+            "I am the god killer!",
+            "You die... a fool."
+        ]
+    },
+    {
+        champion: "Ahri",
+        quotes: [
+            "A clever fox is never caught.",
+            "You don't have to be afraid of me.",
+            "I know this place... Some part of me remembers.",
+            "I'll have them chasing their tails!",
+            "Nature here is too quiet.",
+            "I wander, but I'm not lost.",
+            "I'll see everything this world has to offer.",
+            "You're not afraid of me, are you?",
+            "You're my prey now.",
+            "You're mine now.",
+            "Here I come!",
+            "My ancestors die with me..."
+        ]
+    },
+    {
+        champion: "Akali",
+        quotes: [
+            "Fear the assassin with no master.",
+            "You're scared, good to know.",
+            "Let's make this quick.",
+            "I make problems... disappear.",
+            "How about I just end this.",
+            "I'll make this look like magic.",
+            "Look, I don't wanna kill you... but I will.",
+            "Call it a purse. I dare you.",
+            "Let's have some fun.",
+            "You're dead, I'm alive. See? Balance!",
+            "They had it coming.",
+        ]
+    },
+    {
+        champion: "Akshan",
+        quotes:[
+            "Fixing the world, one scoundrel at a time!",
+            "I'm going to remember this.",
+            "So... this is what it's like to have friends.",
+            
+        ]
+    }
+
+
+
+
+]
