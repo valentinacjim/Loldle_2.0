@@ -1789,61 +1789,225 @@ allQuotes = [
     {
         champion: "Aatrox",
         quotes: [
-            "Now, hear the silence of annihilation!",
-            "Let me end this!",
-            "They think me defeated, enchained. But I am unbowed... Noble is this carnage.",
-            "I am your reckoner, mortals.",
-            "Challenge me, mortals! I am here!",
-            "Am I the abyss? Or did I gaze into it?",
-            "I am not a king, I am not a god, I am... worse...",
-            "I am doom!",
-            "This violence shall amuse!",
-            "I am the god killer!",
-            "You die... a fool."
+            ["Now, hear the silence of annihilation!", "audio/Aatrox/Aatrox_Select.ogg"],
+            ["Let me end this!", "audio/Aatrox/Aatrox_Ban.ogg"],
+            ["They think me defeated, enchained. But I am unbowed... Noble is this carnage.", "audio/Aatrox/Aatrox_Quote_1.ogg"],
+            ["I am your reckoner, mortals.", "audio/Aatrox/Aatrox_Quote_2.ogg"],
+            ["Challenge me, mortals! I am here!", "audio/Aatrox/Aatrox_Quote_3.ogg"],
+            ["Am I the abyss? Or did I gaze into it?"],
+            ["I am not a king, I am not a god, I am... worse..."],
+            ["I am doom!"],
+            ["This violence shall amuse!"],
+            ["I am the god killer!",]
+            ["You die... a fool."]
         ]
     },
     {
         champion: "Ahri",
         quotes: [
-            "A clever fox is never caught.",
-            "You don't have to be afraid of me.",
-            "I know this place... Some part of me remembers.",
-            "I'll have them chasing their tails!",
-            "Nature here is too quiet.",
-            "I wander, but I'm not lost.",
-            "I'll see everything this world has to offer.",
-            "You're not afraid of me, are you?",
-            "You're my prey now.",
-            "You're mine now.",
-            "Here I come!",
-            "My ancestors die with me..."
+            ["A clever fox is never caught."],
+            ["You don't have to be afraid of me."],
+            ["I know this place... Some part of me remembers."],
+            ["I'll have them chasing their tails!"],
+            ["Nature here is too quiet."],
+            ["I wander, but I'm not lost."],
+            ["I'll see everything this world has to offer."],
+            ["You're not afraid of me, are you?"],
+            ["You're my prey now."],
+            ["You're mine now."],
+            ["Here I come!"],
+            ["My ancestors die with me..."]
         ]
     },
     {
         champion: "Akali",
         quotes: [
-            "Fear the assassin with no master.",
-            "You're scared, good to know.",
-            "Let's make this quick.",
-            "I make problems... disappear.",
-            "How about I just end this.",
-            "I'll make this look like magic.",
-            "Look, I don't wanna kill you... but I will.",
-            "Call it a purse. I dare you.",
-            "Let's have some fun.",
-            "You're dead, I'm alive. See? Balance!",
-            "They had it coming.",
+            ["Fear the assassin with no master."],
+            ["You're scared, good to know."],
+            ["Let's make this quick."],
+            ["I make problems... disappear."],
+            ["How about I just end this."],
+            ["I'll make this look like magic."],
+            ["Look, I don't wanna kill you... but I will."],
+            ["Call it a purse. I dare you."],
+            ["Let's have some fun."],
+            ["You're dead, I'm alive. See? Balance!"],
+            ["They had it coming."],
         ]
     },
     {
         champion: "Akshan",
         quotes:[
-            "Fixing the world, one scoundrel at a time!",
-            "I'm going to remember this.",
-            "So... this is what it's like to have friends.",
-            
+            ["Fixing the world, one scoundrel at a time!"],
+            ["I'm going to remember this."],
+            ["So... this is what it's like to have friends."],
+            ["Mmm, yes. Villainy is near."],
+            ["I hate shooting them in the back. I don't get to see their surprise."],
+            ["Who am I to decide who lives and dies? Huh. Just a guy."],
+            ["What else can I add to this gun? Maybe a shovel. No-a ladder!"],
+            ["A friend has gone silent. Let's wake them up shall we?"],
+            ["Sorry, can't let you live. You understand."],
+            ["Have a good rest?"],
+            ["Now for my grand escape. Grappling hook!"]
+        ]
+    },
+    {
+        champion: "Alistar",
+        quotes:[
+            ["Nothing can hold me back!"],
+            ["Now I'm angry."],
+            ["You must follow."],
+            ["You can't milk those."],
+            ["Mess with the bull and you get the horns!"],
+            ["I know the way."],
+            ["You must follow."]
+        ]
+    },
+    {
+        champion: "Amumu",
+        quotes:[
+            ["I thought you'd never pick me."],
+            ["Aww."],
+            ["Let's find some friends."],
+            ["Let me give you a hug."],
+            ["Let's be friends forever."],
+            ["Come play with me."],
+            ["Hey, come back."]
+        ]
+    },
+    {
+        champion: "Anivia",
+        quotes:[
+            ["On my wings."],
+            ["I shall endure."],
+            ["I am neither the first, nor the last."],
+            ["I will be reborn."],
+            ["A thousand lives will I give for the Freljord."],
+            ["So young, so naive!"],
+            ["The chicken or the egg? Actually I came first."],
+            ["I bring the storm."],
+            ["I am the snow, wind, and ice."],
+            ["The cycle closes."]
+        ]
+    },
+    {
+        champion: "Annie",
+        quotes:[
+            ["You wanna play too? It'll be fun!"],
+            ["I want a turn!"],
+            ["♪ Come out, come out, wherever you are! ♪"],
+            ["Don't be a scaredy cat!"],
+            ["Have you seen my bear Tibbers?"],
+            ["I never play with matches."],
+            ["I'm rubber and you're... on fire!"],
+            ["This is fun!"],
+            ["Eeny, meeny, miny, burn!"],
+            ["Don't make me hurt you!"],
+            ["Play time!"]
+        ]
+    },
+    {
+        champion: "Aphelios",
+        quotes:[
+            ["So many weapons, Aphelios. The deadliest is your faith."],
+            ["Condemned to darkness, where our power grows."],
+            ["With every step, two steps. With every breath, two breaths."],
+            ["Your life upon the altar, brother… I will not betray it."],
+            ["Again and again, I see you reach… for me."],
+            ["Darkness is not heresy. It lies within us all."],
+            ["Our destiny is hidden in the night."],
+            ["We're in this together. Darkness and light."],
+            ["We must find each other before every first light."],
+            ["Our faith will be tested."],
+            ["We hide no longer."]
+        ]
+    },
+    {
+        champion: "Ashe",
+        quotes:[
+            ["All the world on one arrow."],
+            ["Coward! May you die with your eyes closed."],
+            ["Avarosa guide me."],
+            ["Do not confuse mercy for weakness."],
+            ["The day our tribes are one, the world will tremble."],
+            ["Seek peace, but bring the tools of war."],
+            ["Prepare yourself, you face an Iceborn!"],
+            ["Take a good look; it's the last you'll get."],
+            ["You face an Iceborn!"],
+            ["My mercy has limits!"],
+            ["My arrows fly true."],
+            ["This is the fury of an Iceborn!"],
+            ["Arrows, fly!"],
+            ["Reveal what is hidden."],
+            ["I am the bow!"],
+            ["I only needed one shot."]
+        ]
+    },
+    {
+        champion: "Aurelion Sol",
+        quotes:[
+            ["Naturally."],
+            ["Hmph. Tragic."],
+            ["In a constantly shifting cosmos, a world this static is... refreshing."],
+            ["They call me a comet. They call me a dragon. They have no words for my true form."],
+            ["Why does anyone wish upon a star?"],
+            ["I grieve for every star never born."],
+            ["My stars shine for all."],
+            ["Sometimes, the stars gaze back."],
+            ["A star's birth is as violent as it is breathtaking."],
+            ["Make a wish. See if the stars answer. I'll wait."],
+            ["I make entropy look good."],
+            ["Defending yourself? Adorably futile."],
+            ["Plenty more to come."],
+            ["I am the fire that cleanses the world."],
+            ["Time to gather the necessary matter!"],
+        ]
+    },
+    {
+        champion: "Azir",
+        quotes:[
+            ["Shurima, your emperor has returned."],
+            ["Your emperor shall return."],
+            ["Shurima is where all paths converge."],
+            ["The world is a desert. I am the oasis."],
+            ["I will guide us to glory."],
+            ["Join me, and be elevated."],
+            ["No sacrifice is too great."],
+            ["The future will be written by the Ascended!"],
+            ["Give yourselves to Shurima."],
+            ["Mine is the will of Shurima."],
+            ["Shurima is never lost."],
+            ["I am Ascended."],
+            ["Nothing is beyond my reach."],
+            ["I will reclaim my stolen legacy!"],
+        ]
+    },
+    {
+        champion: "Bard",
+        quotes:[
+            ["Utora!"]
+        ]
+    },
+    {
+        champion: "Bel'Veth",
+        quotes:[
+            ["I am the voice of the silence."],
+            ["We will be waiting."],
+            ["My hunger is endless. It cannot be sated, and it will not be stopped."],
+            ["My Runeterra will be beautiful."],
+            ["I crave everything."],
+            ["The end awaits."],
+            ["Consume, grow, and remake."],
+            ["When the void first touched existence, both were changed forever."],
+            ["This will be painful."],
+            ["My world awaits."],
+            ["So hungry."],
+            ["Too late."]
         ]
     }
+
+
+
 
 
 
