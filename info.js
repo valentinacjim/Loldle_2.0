@@ -2079,7 +2079,35 @@ allQuotes = [
     },
     {
         champion: "Briar",
-        quotes:[]
+        quotes:[
+            ["Nice to meet you! I'm hungry. I mean... Briar!", "audio/Briar/Briar_Select.ogg"],
+            ["Ahh... Is this what people call 'strategy'?", "audio/Briar/Briar_Ban.ogg"],
+            ["Let's see! Today, I'm going to... Climb a tree, learn the Noxian anthem, kill my enemies, and... Oh! Make a baby laugh.", "audio/Briar/Briar_Quote_1.ogg"],
+            ["Is life the hunger of death...?", "audio/Briar/Briar_Quote_2.ogg"],
+            ["It is not polite to nibble on friends!", "audio/Briar/Briar_Quote_3.ogg"],
+            ["Food doesn't have to be blood?! Ha.", "audio/Briar/Briar_Quote_4.ogg"],
+            ["PREY! WEAK AND... Sorry, old habit, uhh... hi!", "audio/Briar/Briar_Quote_5.ogg"],
+            ["They always run!", "audio/Briar/Briar_Quote_6.ogg"],
+            ["Lookin' tasty.", "audio/Briar/Briar_Quote_7.ogg"],
+            ["FINALLY!", "audio/Briar/Briar_Quote_8.ogg"],
+            ["MINE! Mine...", "audio/Briar/Briar_Quote_9.ogg"]
+        ]
+    },
+    {
+        champion:"Caitlyn",
+        quotes:[
+            ["I'm on the case.", "audio/Caitlyn/Caitlyn_Select.ogg"],
+            ["Shall I turn in my badge and rifle as well?", "audio/Caitlyn/Caitlyn_Ban.ogg"],
+            ["Every case, every investigation brings me one step closer to justice.", "audio/Caitlyn/Caitlyn_Quote_1.ogg"],
+            ["Hot on the trail.", "audio/Caitlyn/Caitlyn_Quote_2.ogg"],
+            ["Me, miss? Not by a long shot.", "audio/Caitlyn/Caitlyn_Quote_3.ogg"],
+            ["I'm on the job.", "audio/Caitlyn/Caitlyn_Quote_4.ogg"],
+            ["Anything you say can and will be used against you.", "audio/Caitlyn/Caitlyn_Quote_5.ogg"],
+            ["I'll make this quick.", "audio/Caitlyn/Caitlyn_Quote_6.ogg"],
+            ["As expected.", "audio/Caitlyn/Caitlyn_Quote_7.ogg"],
+            ["Boom! Headshot.", "audio/Caitlyn/Caitlyn_Quote_8.ogg"],
+            ["Guilty as charged.", "audio/Caitlyn/Caitlyn_Quote_9.ogg"],
+        ]
     }
 
 
