@@ -187,6 +187,19 @@ allChampions = [
         img: "Images/Campeones/RiotX_ChampionList_braum.jpg"
     },
     {
+        nombre: "Briar",
+        gender: "Female",
+        roles: ["Jungle"],
+        specie: ["Ghoul"],
+        resource: "Health costs",
+        range: "Melee",
+        region: ["Noxus"],
+        year: "2023",
+        img: "Images/Campeones/RiotX_ChampionList_briar.jpg"
+
+
+    },
+    {
         nombre: "Caitlyn",
         gender: "Female",
         roles: ["Bottom"],
@@ -891,6 +904,17 @@ allChampions = [
         img: "Images/Campeones/RiotX_ChampionList_masteryi.jpg"
     },
     {
+        nombre: "Milio",
+        gender: "Male",
+        roles: ["Support"],
+        species: ["Human", "Magicborn"],
+        resource: "Mana",
+        range: "Ranged",
+        region: ["Ixtal"],
+        year: "2023",
+        img: "Images/Campeones/RiotX_ChampionList_milio.jpg"
+    },
+    {
         nombre: "Mordekaiser",
         gender: "Male",
         roles: ["Top"],
@@ -911,6 +935,17 @@ allChampions = [
         region: ["Demacia", "Targon"],
         year: "2009",
         img: "Images/Campeones/RiotX_ChampionList_morgana.jpg"
+    },
+    {
+        nombre: "Naafiri",
+        gender: "Female",
+        roles: ["Middle"],
+        specie: ["Darkin", "Dog"],
+        resource: "Mana",
+        range: "Melee",
+        region: ["Shurima"],
+        year: "2023",
+        img: "Images/Campeones/RiotX_ChampionList_naafiri.jpg"
     },
     {
         nombre: "Nami",
@@ -1838,177 +1873,214 @@ allQuotes = [
     {
         champion: "Akshan",
         quotes:[
-            ["Fixing the world, one scoundrel at a time!"],
-            ["I'm going to remember this."],
-            ["So... this is what it's like to have friends."],
-            ["Mmm, yes. Villainy is near."],
-            ["I hate shooting them in the back. I don't get to see their surprise."],
-            ["Who am I to decide who lives and dies? Huh. Just a guy."],
-            ["What else can I add to this gun? Maybe a shovel. No-a ladder!"],
-            ["A friend has gone silent. Let's wake them up shall we?"],
-            ["Sorry, can't let you live. You understand."],
-            ["Have a good rest?"],
-            ["Now for my grand escape. Grappling hook!"]
+            ["Fixing the world, one scoundrel at a time!", "audio/Akshan/Akshan_Select.ogg"],
+            ["I'm going to remember this.", "audio/Akshan/Akshan_Ban.ogg"],
+            ["So... this is what it's like to have friends.", "audio/Akshan/Akshan_Quote_1.ogg"],
+            ["Mmm, yes. Villainy is near.", "audio/Akshan/Akshan_Quote_2.ogg"],
+            ["I hate shooting them in the back. I don't get to see their surprise.", "audio/Akshan/Akshan_Quote_3.ogg"],
+            ["Who am I to decide who lives and dies? Huh. Just a guy.", "audio/Akshan/Akshan_Quote_4.ogg"],
+            ["What else can I add to this gun? Maybe a shovel. No-a ladder!", "audio/Akshan/Akshan_Quote_5.ogg"],
+            ["A friend has gone silent. Let's wake them up shall we?", "audio/Akshan/Akshan_Quote_6.ogg"],
+            ["Sorry, can't let you live. You understand.", "audio/Akshan/Akshan_Quote_7.ogg"],
+            ["Have a good rest?", "audio/Akshan/Akshan_Quote_8.ogg"],
+            ["Now for my grand escape. Grappling hook!", "audio/Akshan/Akshan_Quote_9.ogg"]
         ]
     },
     {
         champion: "Alistar",
         quotes:[
-            ["Nothing can hold me back!"],
-            ["Now I'm angry."],
-            ["You must follow."],
-            ["You can't milk those."],
-            ["Mess with the bull and you get the horns!"],
-            ["I know the way."],
-            ["You must follow."]
+            ["Nothing can hold me back!", "audio/Alistar/Alistar_Select.ogg"],
+            ["Now I'm angry.", "audio/Alistar/Alistar_Ban.ogg"],
+            ["You must follow.", "audio/Alistar/Alistar_Quote_1.ogg"],
+            ["You can't milk those.", "audio/Alistar/Alistar_Quote_2.ogg"],
+            ["Mess with the bull and you get the horns!", "audio/Alistar/Alistar_Quote_3.ogg"],
+            ["I know the way.", "audio/Alistar/Alistar_Quote_4.ogg"]
         ]
     },
     {
         champion: "Amumu",
         quotes:[
-            ["I thought you'd never pick me."],
-            ["Aww."],
-            ["Let's find some friends."],
-            ["Let me give you a hug."],
-            ["Let's be friends forever."],
-            ["Come play with me."],
-            ["Hey, come back."]
+            ["I thought you'd never pick me.", "audio/Amumu/Amumu_Select.ogg"],
+            ["Aww.", "audio/Amumu/Amumu_Ban.ogg"],
+            ["Let's find some friends.", "audio/Amumu/Amumu_Quote_1.ogg"],
+            ["Let me give you a hug.", "audio/Amumu/Amumu_Quote_2.ogg"],
+            ["Let's be friends forever.", "audio/Amumu/Amumu_Quote_3.ogg"],
+            ["Come play with me.", "audio/Amumu/Amumu_Quote_4.ogg"],
+            ["Hey, come back.", "audio/Amumu/Amumu_Quote_5.ogg"]
         ]
     },
     {
         champion: "Anivia",
         quotes:[
-            ["On my wings."],
-            ["I shall endure."],
-            ["I am neither the first, nor the last."],
-            ["I will be reborn."],
-            ["A thousand lives will I give for the Freljord."],
-            ["So young, so naive!"],
-            ["The chicken or the egg? Actually I came first."],
-            ["I bring the storm."],
-            ["I am the snow, wind, and ice."],
-            ["The cycle closes."]
+            ["On my wings.", "audio/Anivia/Anivia_Select.ogg"],
+            ["I shall endure.", "audio/Anivia/Anivia_Ban.ogg"],
+            ["I am neither the first, nor the last.", "audio/Anivia/Anivia_Quote_1.ogg"],
+            ["I will be reborn.", "audio/Anivia/Anivia_Quote_2.ogg"],
+            ["A thousand lives will I give for the Freljord.", "audio/Anivia/Anivia_Quote_3.ogg"],
+            ["So young, so naive!", "audio/Anivia/Anivia_Quote_4.ogg"],
+            ["The chicken or the egg? Actually I came first.", "audio/Anivia/Anivia_Quote_5.ogg"],
+            ["I bring the storm.", "audio/Anivia/Anivia_Quote_6.ogg"],
+            ["I am the snow, wind, and ice.", "audio/Anivia/Anivia_Quote_7.ogg"],
+            ["The cycle closes.", "audio/Anivia/Anivia_Quote_8.ogg"]
         ]
     },
     {
         champion: "Annie",
         quotes:[
-            ["You wanna play too? It'll be fun!"],
-            ["I want a turn!"],
-            ["♪ Come out, come out, wherever you are! ♪"],
-            ["Don't be a scaredy cat!"],
-            ["Have you seen my bear Tibbers?"],
-            ["I never play with matches."],
-            ["I'm rubber and you're... on fire!"],
-            ["This is fun!"],
-            ["Eeny, meeny, miny, burn!"],
-            ["Don't make me hurt you!"],
-            ["Play time!"]
+            ["You wanna play too? It'll be fun!", "audio/Annie/Annie_Select.ogg"],
+            ["I want a turn!", "audio/Annie/Annie_Ban.ogg"],
+            ["♪ Come out, come out, wherever you are! ♪", "audio/Annie/Annie_Quote_1.ogg"],
+            ["Don't be a scaredy cat!", "audio/Annie/Annie_Quote_2.ogg"],
+            ["Have you seen my bear Tibbers?", "audio/Annie/Annie_Quote_3.ogg"],
+            ["I never play with matches.", "audio/Annie/Annie_Quote_4.ogg"],
+            ["I'm rubber and you're... on fire!", "audio/Annie/Annie_Quote_5.ogg"],
+            ["This is fun!", "audio/Annie/Annie_Quote_6.ogg"],
+            ["Eeny, meeny, miny, burn!", "audio/Annie/Annie_Quote_7.ogg"],
+            ["Don't make me hurt you!", "audio/Annie/Annie_Quote_8.ogg"],
+            ["Play time!", "audio/Annie/Annie_Quote_9.ogg"]
         ]
     },
     {
         champion: "Aphelios",
         quotes:[
-            ["So many weapons, Aphelios. The deadliest is your faith."],
-            ["Condemned to darkness, where our power grows."],
-            ["With every step, two steps. With every breath, two breaths."],
-            ["Your life upon the altar, brother… I will not betray it."],
-            ["Again and again, I see you reach… for me."],
-            ["Darkness is not heresy. It lies within us all."],
-            ["Our destiny is hidden in the night."],
-            ["We're in this together. Darkness and light."],
-            ["We must find each other before every first light."],
-            ["Our faith will be tested."],
-            ["We hide no longer."]
+            ["So many weapons, Aphelios. The deadliest is your faith.", "audio/Aphelios/Aphelios_Select.ogg"],
+            ["Condemned to darkness, where our power grows.", "audio/Aphelios/Aphelios_Ban.ogg"],
+            ["With every step, two steps. With every breath, two breaths.", "audio/Aphelios/Aphelios_Quote_1.ogg"],
+            ["Your life upon the altar, brother… I will not betray it.", "audio/Aphelios/Aphelios_Quote_2.ogg"],
+            ["Again and again, I see you reach… for me.", "audio/Aphelios/Aphelios_Quote_3.ogg"],
+            ["Darkness is not heresy. It lies within us all.", "audio/Aphelios/Aphelios_Quote_4.ogg"],
+            ["Our destiny is hidden in the night.", "audio/Aphelios/Aphelios_Quote_5.ogg"],
+            ["We're in this together. Darkness and light.", "audio/Aphelios/Aphelios_Quote_6.ogg"],
+            ["We must find each other before every first light.", "audio/Aphelios/Aphelios_Quote_7.ogg"],
+            ["Our faith will be tested.", "audio/Aphelios/Aphelios_Quote_8.ogg"],
+            ["We hide no longer.", "audio/Aphelios/Aphelios_Quote_9.ogg"]
         ]
     },
     {
         champion: "Ashe",
         quotes:[
-            ["All the world on one arrow."],
-            ["Coward! May you die with your eyes closed."],
-            ["Avarosa guide me."],
-            ["Do not confuse mercy for weakness."],
-            ["The day our tribes are one, the world will tremble."],
-            ["Seek peace, but bring the tools of war."],
-            ["Prepare yourself, you face an Iceborn!"],
-            ["Take a good look; it's the last you'll get."],
-            ["You face an Iceborn!"],
-            ["My mercy has limits!"],
-            ["My arrows fly true."],
-            ["This is the fury of an Iceborn!"],
-            ["Arrows, fly!"],
-            ["Reveal what is hidden."],
-            ["I am the bow!"],
-            ["I only needed one shot."]
+            ["All the world on one arrow.", "audio/Ashe/Ashe_Select.ogg"],
+            ["Coward! May you die with your eyes closed.", "audio/Ashe/Ashe_Ban.ogg"],
+            ["Avarosa guide me.","audio/Ashe/Ashe_Quote_1.ogg"],
+            ["Do not confuse mercy for weakness.","audio/Ashe/Ashe_Quote_2.ogg"],
+            ["The day our tribes are one, the world will tremble.", "audio/Ashe/Ashe_Quote_3.ogg"],
+            ["Seek peace, but bring the tools of war.", "audio/Ashe/Ashe_Quote_4.ogg"],
+            ["Prepare yourself, you face an Iceborn!", "audio/Ashe/Ashe_Quote_5.ogg"],
+            ["Take a good look; it's the last you'll get.", "audio/Ashe/Ashe_Quote_6.ogg"],
+            ["You face an Iceborn!", "audio/Ashe/Ashe_Quote_7.ogg"],
+            ["My mercy has limits!", "audio/Ashe/Ashe_Quote_8.ogg"],
+            ["My arrows fly true.", "audio/Ashe/Ashe_Quote_9.ogg"],
+            ["This is the fury of an Iceborn!", "audio/Ashe/Ashe_Quote_10.ogg"],
+            ["Arrows, fly!", "audio/Ashe/Ashe_Quote_11.ogg"],
+            ["Reveal what is hidden.", "audio/Ashe/Ashe_Quote_12.ogg"],
+            ["I am the bow!", "audio/Ashe/Ashe_Quote_13.ogg"],
+            ["I only needed one shot.", "audio/Ashe/Ashe_Quote_14.ogg"]
         ]
     },
     {
         champion: "Aurelion Sol",
         quotes:[
-            ["Naturally."],
-            ["Hmph. Tragic."],
-            ["In a constantly shifting cosmos, a world this static is... refreshing."],
-            ["They call me a comet. They call me a dragon. They have no words for my true form."],
-            ["Why does anyone wish upon a star?"],
-            ["I grieve for every star never born."],
-            ["My stars shine for all."],
-            ["Sometimes, the stars gaze back."],
-            ["A star's birth is as violent as it is breathtaking."],
-            ["Make a wish. See if the stars answer. I'll wait."],
-            ["I make entropy look good."],
-            ["Defending yourself? Adorably futile."],
-            ["Plenty more to come."],
-            ["I am the fire that cleanses the world."],
-            ["Time to gather the necessary matter!"],
+            ["Naturally.", "audio/AurelionSol/AurelionSol_Select.ogg"],
+            ["Hmph. Tragic.", "audio/AurelionSol/AurelionSol_Ban.ogg"],
+            ["In a constantly shifting cosmos, a world this static is... refreshing.", "audio/AurelionSol/AurelionSol_Quote_1.ogg"],
+            ["They call me a comet. They call me a dragon. They have no words for my true form.", "audio/AurelionSol/AurelionSol_Quote_2.ogg"],
+            ["Why does anyone wish upon a star?", "audio/AurelionSol/AurelionSol_Quote_3.ogg"],
+            ["I grieve for every star never born.", "audio/AurelionSol/AurelionSol_Quote_4.ogg"],
+            ["My stars shine for all.", "audio/AurelionSol/AurelionSol_Quote_5.ogg"],
+            ["Sometimes, the stars gaze back.", "audio/AurelionSol/AurelionSol_Quote_6.ogg"],
+            ["A star's birth is as violent as it is breathtaking.", "audio/AurelionSol/AurelionSol_Quote_7.ogg"],
+            ["Make a wish. See if the stars answer. I'll wait.",    "audio/AurelionSol/AurelionSol_Quote_8.ogg"],
+            ["I make entropy look good.", "audio/AurelionSol/AurelionSol_Quote_9.ogg"],
+            ["Defending yourself? Adorably futile.", "audio/AurelionSol/AurelionSol_Quote_10.ogg"],
+            ["Plenty more to come.", "audio/AurelionSol/AurelionSol_Quote_11.ogg"],
+            ["Time to gather the necessary matter!", "audio/AurelionSol/AurelionSol_Quote_12.ogg"],
         ]
     },
     {
         champion: "Azir",
         quotes:[
-            ["Shurima, your emperor has returned."],
-            ["Your emperor shall return."],
-            ["Shurima is where all paths converge."],
-            ["The world is a desert. I am the oasis."],
-            ["I will guide us to glory."],
-            ["Join me, and be elevated."],
-            ["No sacrifice is too great."],
-            ["The future will be written by the Ascended!"],
-            ["Give yourselves to Shurima."],
-            ["Mine is the will of Shurima."],
-            ["Shurima is never lost."],
-            ["I am Ascended."],
-            ["Nothing is beyond my reach."],
-            ["I will reclaim my stolen legacy!"],
+            ["Shurima, your emperor has returned.", "audio/Azir/Azir_Select.ogg"],
+            ["Your emperor shall return.", "audio/Azir/Azir_Ban.ogg"],
+            ["Shurima is where all paths converge.", "audio/Azir/Azir_Quote_1.ogg"],
+            ["The world is a desert. I am the oasis.", "audio/Azir/Azir_Quote_2.ogg"],
+            ["I will guide us to glory.", "audio/Azir/Azir_Quote_3.ogg"],
+            ["Join me, and be elevated.", "audio/Azir/Azir_Quote_4.ogg"],
+            ["No sacrifice is too great.", "audio/Azir/Azir_Quote_5.ogg"],
+            ["The future will be written by the Ascended!", "audio/Azir/Azir_Quote_6.ogg"],
+            ["Give yourselves to Shurima.", "audio/Azir/Azir_Quote_7.ogg"],
+            ["Mine is the will of Shurima.", "audio/Azir/Azir_Quote_8.ogg"],
+            ["Shurima is never lost.", "audio/Azir/Azir_Quote_9.ogg"],
+            ["I am Ascended.",  "audio/Azir/Azir_Quote_10.ogg"],
+            ["Nothing is beyond my reach.", "audio/Azir/Azir_Quote_11.ogg"],
+            ["I will reclaim my stolen legacy!", "audio/Azir/Azir_Quote_12.ogg"],
         ]
     },
     {
         champion: "Bard",
         quotes:[
-            ["Utora!"]
+            ["Utora!", "audio/Bard/Bard_Quote.ogg"],
         ]
     },
     {
         champion: "Bel'Veth",
         quotes:[
-            ["I am the voice of the silence."],
-            ["We will be waiting."],
-            ["My hunger is endless. It cannot be sated, and it will not be stopped."],
-            ["My Runeterra will be beautiful."],
-            ["I crave everything."],
-            ["The end awaits."],
-            ["Consume, grow, and remake."],
-            ["When the void first touched existence, both were changed forever."],
-            ["This will be painful."],
-            ["My world awaits."],
-            ["So hungry."],
-            ["Too late."]
+            ["I am the voice of the silence.", "audio/BelVeth/BelVeth_Select.ogg"],
+            ["We will be waiting.", "audio/BelVeth/BelVeth_Ban.ogg"],
+            ["My hunger is endless. It cannot be sated, and it will not be stopped.", "audio/BelVeth/BelVeth_Quote_1.ogg"],
+            ["My Runeterra will be beautiful.", "audio/BelVeth/BelVeth_Quote_2.ogg"],
+            ["I crave everything.", "audio/BelVeth/BelVeth_Quote_3.ogg"],
+            ["The end awaits.", "audio/BelVeth/BelVeth_Quote_4.ogg"],
+            ["Consume, grow, and remake.", "audio/BelVeth/BelVeth_Quote_5.ogg"],
+            ["When the void first touched existence, both were changed forever.", "audio/BelVeth/BelVeth_Quote_6.ogg"],
+            ["This will be painful.", "audio/BelVeth/BelVeth_Quote_7.ogg"],
+            ["My world awaits.", "audio/BelVeth/BelVeth_Quote_8.ogg"],
+            ["So hungry.", "audio/BelVeth/BelVeth_Quote_9.ogg"],
+            ["Too late.", "audio/BelVeth/BelVeth_Quote_10.ogg"]
         ]
+    },
+    {
+        champion:"Blitzcrank",
+        quotes:[
+            ["Fired up and ready to serve.", "audio/Blitzcrank/Blitzcrank_Select.ogg"],
+            ["Bone is a poor alternative.", "audio/Blitzcrank/Blitzcrank_Ban.ogg"],
+            ["Precisely.", "audio/Blitzcrank/Blitzcrank_Quote_1.ogg"],
+            ["Metal is harder than flesh.", "audio/Blitzcrank/Blitzcrank_Quote_2.ogg"],
+            ["Exterminate. Exterminate.", "audio/Blitzcrank/Blitzcrank_Quote_3.ogg"],
+            ["As long as it takes.", "audio/Blitzcrank/Blitzcrank_Quote_4.ogg"]
+        ]
+    },
+    {
+        champion:"Brand",
+        quotes:[
+            ["Ready to set the world on fire? Heheheh...", "audio/Brand/Brand_Select.ogg"],
+            ["Going.", "audio/Brand/Brand_Ban.ogg"],
+            ["This body is just one of many!", "audio/Brand/Brand_Quote_1.ogg"],
+            ["Yes...", "audio/Brand/Brand_Quote_2.ogg"],
+            ["The inferno begins!", "audio/Brand/Brand_Quote_3.ogg"],
+            ["Forged in pain!", "audio/Brand/Brand_Quote_4.ogg"],
+            ["Burn! Hahaha!", "audio/Brand/Brand_Quote_5.ogg"]
+        ]
+    },
+    {
+        champion:"Braum",
+        quotes:[
+            ["The heart is the strongest muscle.", "audio/Braum/Braum_Select.ogg"],
+            ["Think carefully, my friend.", "audio/Braum/Braum_Ban.ogg"],
+            ["Shall we begin?", "audio/Braum/Braum_Quote_1.ogg"],
+            ["Ah, new beginnings.", "audio/Braum/Braum_Quote_2.ogg"],
+            ["They may have many, but you have me.", "audio/Braum/Braum_Quote_3.ogg"],
+            ["If they insist on a fight, I will oblige them.", "audio/Braum/Braum_Quote_4.ogg"],
+            ["Follow me, friends!", "audio/Braum/Braum_Quote_5.ogg"],
+            ["Let us go.", "audio/Braum/Braum_Quote_6.ogg"],
+            ["Show me your best.", "audio/Braum/Braum_Quote_7.ogg"],
+            ["My shield is my sword.", "audio/Braum/Braum_Quote_8.ogg"],
+            ["My shield is here for you.", "audio/Braum/Braum_Quote_9.ogg"]
+        ]
+    },
+    {
+        champion: "Briar",
+        quotes:[]
     }
-
-
-
-
 
 
 
