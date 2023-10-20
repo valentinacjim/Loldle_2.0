@@ -2106,10 +2106,39 @@ allQuotes = [
             ["I'll make this quick.", "audio/Caitlyn/Caitlyn_Quote_6.ogg"],
             ["As expected.", "audio/Caitlyn/Caitlyn_Quote_7.ogg"],
             ["Boom! Headshot.", "audio/Caitlyn/Caitlyn_Quote_8.ogg"],
-            ["Guilty as charged.", "audio/Caitlyn/Caitlyn_Quote_9.ogg"],
+            ["Guilty as charged.", "audio/Caitlyn/Caitlyn_Quote_9.ogg"]
+        ]
+    },
+    {
+        champion:"Camille",
+        quotes:[
+            ["Precision is the difference between a butcher and a surgeon.", "audio/Camille/Camille_Select.ogg"],
+            ["I will wait for you to be better.", "audio/Camille/Camille_Ban.ogg"],
+            ["Progress should never be kept waiting.", "audio/Camille/Camille_Quote_1.ogg"],
+            ["I ensure the survival of Piltover.", "audio/Camille/Camille_Quote_2.ogg"],
+            ["I don't play the game, I make the rules.", "audio/Camille/Camille_Quote_3.ogg"],
+            ["Society needs rules.", "audio/Camille/Camille_Quote_4.ogg"],
+            ["Know. Your. Place.", "audio/Camille/Camille_Quote_5.ogg"],
+            ["Eye on the target.", "audio/Camille/Camille_Quote_6.ogg"],
+            ["Calculated.", "audio/Camille/Camille_Quote_7.ogg"]
+        ]
+    },
+    {
+        champion:"Cassiopeia",
+        quotes:[
+            ["There is no antidote for me.", "audio/Cassiopeia/Cassiopeia_Select.ogg"],
+            ["Think what I could offer.", "audio/Cassiopeia/Cassiopeia_Ban.ogg"],
+            ["Who will have the 'fortune' of facing me today?", "audio/Cassiopeia/Cassiopeia_Quote_1.ogg"],
+            ["Careful, now. I bite.", "audio/Cassiopeia/Cassiopeia_Quote_2.ogg"],
+            ["Like what you see?", "audio/Cassiopeia/Cassiopeia_Quote_3.ogg"],
+            ["Do not tempt a viper.", "audio/Cassiopeia/Cassiopeia_Quote_4.ogg"],
+            ["Watch your step.", "audio/Cassiopeia/Cassiopeia_Quote_5.ogg"],
+            ["Die with grace.", "audio/Cassiopeia/Cassiopeia_Quote_6.ogg"],
+            ["You won't feel a thing.", "audio/Cassiopeia/Cassiopeia_Quote_7.ogg"],
+            ["I'll be back soon. Miss me.", "audio/Cassiopeia/Cassiopeia_Quote_8.ogg"]
+
         ]
     }
-
 
 
 ]

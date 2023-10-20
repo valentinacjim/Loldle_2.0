@@ -67,6 +67,7 @@
 .container {
     max-width: 800px;
     margin: auto;
+    text-align: center;
 }
 
 .search-input-box {
@@ -110,10 +111,16 @@
     box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.12);
 }
 
-.sugerencia{
+.sugerencia, .sugerencia_quote{
     display: grid;
     grid-template-columns: 25% 75%;
     height: 7.5em;
+}
+
+.sugerencia_quote{
+    margin: 0.75em 0 0 0;
+    border: 1px solid #ffffff;
+    background-color: #1b441b75;
 }
 
 .sugerencia:hover{
@@ -179,7 +186,7 @@
     left: 0;
 }
 
-#champion_guess{
+#champion_guess, #quote_guess{
     display: none;
 }
 
@@ -199,4 +206,14 @@
 .select_game:hover{
     background-color: #e19b1a;
     cursor: pointer;
+}
+
+.quote{
+    width: 100%;
+    height: 15vh;
+    border: 1px solid #ffffff;
+}
+
+#quote_guess audio{
+    margin : -2rem 0 0 0;
 }

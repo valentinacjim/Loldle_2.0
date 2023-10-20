@@ -21,7 +21,7 @@
         <div class="minigame" id="champion_guess">
         <div class="container">
             <div class="search-input-box">
-                <input id="input_text" type="text" placeholder="Introduce campeón" />
+                <input id="input_text_champion" type="text" placeholder="Introduce campeón" />
                 <i class="fa-solid fa-arrow-right" id="buscador"></i>
             </div>
             <div class="container-suggestions">
@@ -40,9 +40,36 @@
             <div class="title"><h2>Release year</h2></div>
         </div>
         </div>
+
+        <div class="minigame" id="quote_guess">
+            <div class="container">
+            <div class="quote">
+                <h3>Which champion said this quote?</h3>
+                
+                <h2 id="champion_quote"></h2>
+            </div>
+
+            <audio controls id="quote_audio">
+                <source src="" type="audio/mpeg">
+            </audio>
+            <hr>
+            <div class="search-input-box">
+                <input id="input_text_quote" type="text" placeholder="Introduce campeón" />
+                <i class="fa-solid fa-arrow-right" id="buscador"></i>
+            </div>
+            <div class="container-suggestions">
+                <div class = "sugerencia"></div>
+            </div>
+            <div id="quote_guesses">
+                
+            </div>
+            </div>
+            
+        </div>
     </div>
 </body>
 <script src="info.js"></script>
 <script src="champion_guess.js"></script>
+<script src="quote_guess.js"></script>
 <script src="loldle.js"></script>
 </html>
