@@ -67,8 +67,9 @@ function guess_quote_function() {
     console.log(champion);
     create_champion_banner(champion);
 
-    if (champion === randomChampion){
-        
+    if (champion === allChampions[randomChampion]){
+        console.log("Correcto");
+        document.getElementsByClassName("sugerencia_quote")[0].style.backgroundColor = "green";
     }
 
 }
@@ -82,7 +83,8 @@ function create_champion_banner(champion) {
     }
     console.log(champion);
     let champion_banner = document.getElementById("quote_guesses");
-    champion_banner.innerHTML += "<div class='sugerencia_quote'>\n" +
+    let champion_field = document.createElement("div");
+    champion_field.innerHTML = "<div class='sugerencia_quote'>\n" +
     "    <div class='champion_container'>" +
     "        <img alt='champion' src=" + champion.img+ ">\n" +
     "    </div>\n" +
@@ -90,4 +92,5 @@ function create_champion_banner(champion) {
     "        <p><b>" + champion.nombre + "</b></p>" +
     "    </div>\n" +
     "</div>"
+    champion_banner.after(champion_field);
 }
