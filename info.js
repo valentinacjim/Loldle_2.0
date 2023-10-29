@@ -2171,7 +2171,120 @@ allQuotes = [
 allSkins = [
     {
         champion: "Aatrox",
-        
+        skins:[
+            ["Default", "Images/Campeones/Skins/Aatrox/Aatrox.jpg"],
+            ["Justicar Aatrox", "Images/Campeones/Skins/Aatrox/Aatrox_01.jpg"],
+            ["Mecha Aatrox", "Images/Campeones/Skins/Aatrox/Aatrox_09.jpg"],
+            ["Blood Moon Aatrox", "Images/Campeones/Skins/Aatrox/Aatrox_10.jpg"],
+            ["Victorious Aatrox", "Images/Campeones/Skins/Aatrox/Aatrox_05.jpg"],
+            ["Odyssey Aatrox", "Images/Campeones/Skins/Aatrox/Aatrox_02.jpg"],
+            ["Prestige DRX Aatrox", "Images/Campeones/Skins/Aatrox/Aatrox_04.jpg"],
+            ["Prestige Blood Moon Aatrox", "Images/Campeones/Skins/Aatrox/Aatrox_08.jpg"],
+
+        ]
+    },
+    {
+        champion: "Ahri",
+        skins:[
+            ["Default", "Images/Campeones/Skins/Ahri/Ahri.jpg"],
+            ["Dynasty Ahri", "Images/Campeones/Skins/Ahri/Ahri_01.jpg"],
+            ["Midnight Ahri", "Images/Campeones/Skins/Ahri/Ahri_02.jpg"],
+            ["Foxfire Ahri", "Images/Campeones/Skins/Ahri/Ahri_03.jpg"],
+            ["Popstar Ahri", "Images/Campeones/Skins/Ahri/Ahri_04.jpg"],
+            ["Challenger Ahri", "Images/Campeones/Skins/Ahri/Ahri_05.jpg"],
+            ["Arcade Ahri", "Images/Campeones/Skins/Ahri/Ahri_07.jpg"],
+            ["Star Guardian Ahri", "Images/Campeones/Skins/Ahri/Ahri_08.jpg"],
+            ["Elderwood Ahri", "Images/Campeones/Skins/Ahri/Ahri_09.jpg"],
+            ["Coven Ahri", "Images/Campeones/Skins/Ahri/Ahri_10.jpg"],
+            ["Snow Moon Ahri", "Images/Campeones/Skins/Ahri/Ahri_11.jpg"],
+            ["Arcana Ahri", "Images/Campeones/Skins/Ahri/Ahri_13.jpg"],
+            ["K/DA Ahri", "Images/Campeones/Skins/Ahri/Ahri_15.jpg"],
+            ["Spirit Blossom Ahri", "Images/Campeones/Skins/Ahri/Ahri_16.jpg"],
+            ["Prestige K/DA Ahri", "Images/Campeones/Skins/Ahri/Ahri_12.jpg"],
+            [" K/DA ALL OUT Ahri", "Images/Campeones/Skins/Ahri/Ahri_17.jpg"],
+        ]
+    },
+    {
+        champion: "Akali",
+        skins:[
+            ["Default", "Images/Campeones/Skins/Akali/Akali.jpg"],
+            ["Stinger Akali", "Images/Campeones/Skins/Akali/Akali_01.jpg"],
+            ["Infernal Akali", "Images/Campeones/Skins/Akali/Akali_02.jpg"],
+            ["All-Star Akali", "Images/Campeones/Skins/Akali/Akali_03.jpg"],
+            ["Nurse Akali", "Images/Campeones/Skins/Akali/Akali_04.jpg"],
+            ["Blood Moon Akali", "Images/Campeones/Skins/Akali/Akali_05.jpg"],
+            ["Silverfang Akali", "Images/Campeones/Skins/Akali/Akali_06.jpg"],
+            ["Headhunter Akali", "Images/Campeones/Skins/Akali/Akali_07.jpg"],
+            ["Sashimi Akali", "Images/Campeones/Skins/Akali/Akali_08.jpg"],
+            ["K/DA Akali", "Images/Campeones/Skins/Akali/Akali_09.jpg"],
+            ["True Damage Akali", "Images/Campeones/Skins/Akali/Akali_12.jpg"],
+            ["Prestige K/DA Akali", "Images/Campeones/Skins/Akali/Akali_10.jpg"],
+            ["PROJECT: Akali", "Images/Campeones/Skins/Akali/Akali_11.jpg"],
+            ["K/DA ALL OUT Akali", "Images/Campeones/Skins/Akali/Akali_13.jpg"],
+            ["Crime City Nightmare Akali", "Images/Campeones/Skins/Akali/Akali_14.jpg"],
+            ["Star Guardian Akali", "Images/Campeones/Skins/Akali/Akali_16.jpg"],
+            ["Coven Akali", "Images/Campeones/Skins/Akali/Akali_18.jpg"],
+            ["Prestige Coven Akali", "Images/Campeones/Skins/Akali/Akali_17.jpg"],
+        ]
+    },
+    {
+        champion: "Akshan",
+        skins:[
+            ["Default", "Images/Campeones/Skins/Akshan/Akshan.jpg"],
+            ["Cyber Pop Akshan", "Images/Campeones/Skins/Akshan/Akshan_1.jpg"],
+            ["Crystal Rose Akshan", "Images/Campeones/Skins/Akshan/Akshan_2.jpg"],
+        ]
+    },
+    {
+        champion: "Alistar",
+        skins:[
+            ["Default", "Images/Campeones/Skins/Alistar/Alistar.jpg"],
+            ["Black Alistar", "Images/Campeones/Skins/Alistar/Alistar_01.jpg"],
+            ["Golden Alistar", "Images/Campeones/Skins/Alistar/Alistar_02.jpg"],
+            ["Matador Alistar", "Images/Campeones/Skins/Alistar/Alistar_03.jpg"],
+            ["Longhorn Alistar", "Images/Campeones/Skins/Alistar/Alistar_04.jpg"],
+            ["Unchained Alistar", "Images/Campeones/Skins/Alistar/Alistar_05.jpg"],
+            ["Infernal Alistar", "Images/Campeones/Skins/Alistar/Alistar_06.jpg"],
+            ["Marauder Alistar", "Images/Campeones/Skins/Alistar/Alistar_08.jpg"],
+            ["Hextech Alistar", "Images/Campeones/Skins/Alistar/Alistar_11.jpg"],
+            ["Conqueror Alistar", "Images/Campeones/Skins/Alistar/Alistar_12.jpg"],
+            ["Blackfrost Alistar", "Images/Campeones/Skins/Alistar/Alistar_13.jpg"],
+            ["Lunar Beast Alistar", "Images/Campeones/Skins/Alistar/Alistar_14.jpg"],            
+        ]
+    },
+    {
+        champion: "Amumu",
+        skins:[
+            ["Default", "Images/Campeones/Skins/Amumu/Amumu.jpg"],
+            ["Pharaoh Amumu", "Images/Campeones/Skins/Amumu/Amumu_01.jpg"],
+            ["Vancouver Amumu", "Images/Campeones/Skins/Amumu/Amumu_02.jpg"],
+            ["Emumu", "Images/Campeones/Skins/Amumu/Amumu_03.jpg"],
+            ["Re-Gifted Amumu", "Images/Campeones/Skins/Amumu/Amumu_04.jpg"],
+            ["Almost-Prom King Amumu", "Images/Campeones/Skins/Amumu/Amumu_5.jpg"],
+            ["Little Knight Amumu", "Images/Campeones/Skins/Amumu/Amumu_6.jpg"],
+            ["Sad Robot Amumu", "Images/Campeones/Skins/Amumu/Amumu_7.jpg"],
+            ["Infernal Amumu", "Images/Campeones/Skins/Amumu/Amumu_9.jpg"]
+            ["Hextech Amumu", "Images/Campeones/Skins/Amumu/Amumu_10.jpg"],
+            ["Pumpkin Prince Amumu", "Images/Campeones/Skins/Amumu/Amumu_11.jpg"],
+            ["Porcelein Amumu", "Images/Campeones/Skins/Amumu/Amumu_12.jpg"],
+            ["Heartache Amumu", "Images/Campeones/Skins/Amumu/Amumu_13.jpg"],
+        ]
+    },
+    {
+        champion: "Anivia",
+        skins:[
+            ["Default", "Images/Campeones/Skins/Anivia/Anivia.jpg"],
+            ["Team Spirit Anivia", "Images/Campeones/Skins/Anivia/Anivia_01.jpg"],
+            ["Bird of Prey Anivia", "Images/Campeones/Skins/Anivia/Anivia_2.jpg"],
+            ["Noxus Hunter Anivia", "Images/Campeones/Skins/Anivia/Anivia_03.jpg"],
+            ["Hextech Anivia", "Images/Campeones/Skins/Anivia/Anivia_04.jpg"],
+            ["Blackfrost Anivia", "Images/Campeones/Skins/Anivia/Anivia_05.jpg"],
+            ["Festival Queen Anivia", "Images/Campeones/Skins/Anivia/Anivia_07.jpg"],
+            ["Papercraft Anivia", "Images/Campeones/Skins/Anivia/Anivia_08.jpg"],
+            ["Cosmic Flight Anivia", "Images/Campeones/Skins/Anivia/Anivia_09.jpg"],
+            ["Divine Phoenix Anivia", "Images/Campeones/Skins/Anivia/Anivia_10.jpg"],
+            ["Victorious Anivia", "Images/Campeones/Skins/Anivia/Anivia_11.jpg"],
+        ]
     }
 ]
 
@@ -2360,5 +2473,300 @@ allHabilities = [
         r: "images/Habilidades/Corki/r.png",
         pasive: "images/Habilidades/Corki/p.png"
     },
-
+    {
+        champion: "Darius",
+        q: "images/Habilidades/Darius/q.png",
+        w: "images/Habilidades/Darius/w.png",
+        e: "images/Habilidades/Darius/e.png",
+        r: "images/Habilidades/Darius/r.png",
+        pasive: "images/Habilidades/Darius/p.png"
+    },
+    {
+        champion: "Diana",
+        q: "images/Habilidades/Diana/q.png",
+        w: "images/Habilidades/Diana/w.png",
+        e: "images/Habilidades/Diana/e.png",
+        r: "images/Habilidades/Diana/r.png",
+        pasive: "images/Habilidades/Diana/p.png"
+    },
+    {
+        champion: "Dr Mundo",
+        q: "images/Habilidades/DrMundo/q.png",
+        w: "images/Habilidades/DrMundo/w.png",
+        e: "images/Habilidades/DrMundo/e.png",
+        r: "images/Habilidades/DrMundo/r.png",
+        pasive: "images/Habilidades/DrMundo/p.png"
+    },
+    {
+        champion: "Draven",
+        q: "images/Habilidades/Draven/q.png",
+        w: "images/Habilidades/Draven/w.png",
+        e: "images/Habilidades/Draven/e.png",
+        r: "images/Habilidades/Draven/r.png",
+        pasive: "images/Habilidades/Draven/p.png"
+    },
+    {
+        champion: "Ekko",
+        q: "images/Habilidades/Ekko/q.png",
+        w: "images/Habilidades/Ekko/w.png",
+        e: "images/Habilidades/Ekko/e.png",
+        r: "images/Habilidades/Ekko/r.png",
+        pasive: "images/Habilidades/Ekko/p.png"
+    },
+    {
+        champion: "Elise",
+        q: "images/Habilidades/Elise/q.png",
+        w: "images/Habilidades/Elise/w.png",
+        e: "images/Habilidades/Elise/e.png",
+        r: "images/Habilidades/Elise/r.png",
+        pasive: "images/Habilidades/Elise/p.png"
+    },
+    {
+        champion: "Evelynn",
+        q: "images/Habilidades/Evelynn/q.png",
+        w: "images/Habilidades/Evelynn/w.png",
+        e: "images/Habilidades/Evelynn/e.png",
+        r: "images/Habilidades/Evelynn/r.png",
+        pasive: "images/Habilidades/Evelynn/p.png"
+    },
+    {
+        champion: "Ezreal",
+        q: "images/Habilidades/Ezreal/q.png",
+        w: "images/Habilidades/Ezreal/w.png",
+        e: "images/Habilidades/Ezreal/e.png",
+        r: "images/Habilidades/Ezreal/r.png",
+        pasive: "images/Habilidades/Ezreal/p.png"
+    },
+    {
+        champion: "Fiddlesticks",
+        q: "images/Habilidades/Fiddlesticks/q.png",
+        w: "images/Habilidades/Fiddlesticks/w.png",
+        e: "images/Habilidades/Fiddlesticks/e.png",
+        r: "images/Habilidades/Fiddlesticks/r.png",
+        pasive: "images/Habilidades/Fiddlesticks/p.png"
+    },
+    {
+        champion: "Fiora",
+        q: "images/Habilidades/Fiora/q.png",
+        w: "images/Habilidades/Fiora/w.png",
+        e: "images/Habilidades/Fiora/e.png",
+        r: "images/Habilidades/Fiora/r.png",
+        pasive: "images/Habilidades/Fiora/p.png"
+    },
+    {
+        champion: "Fizz",
+        q: "images/Habilidades/Fizz/q.png",
+        w: "images/Habilidades/Fizz/w.png",
+        e: "images/Habilidades/Fizz/e.png",
+        r: "images/Habilidades/Fizz/r.png",
+        pasive: "images/Habilidades/Fizz/p.png"
+    },
+    {
+        champion: "Galio",
+        q: "images/Habilidades/Galio/q.png",
+        w: "images/Habilidades/Galio/w.png",
+        e: "images/Habilidades/Galio/e.png",
+        r: "images/Habilidades/Galio/r.png",
+        pasive: "images/Habilidades/Galio/p.png"
+    },
+    {
+        champion: "Gangplank",
+        q: "images/Habilidades/Gangplank/q.png",
+        w: "images/Habilidades/Gangplank/w.png",
+        e: "images/Habilidades/Gangplank/e.png",
+        r: "images/Habilidades/Gangplank/r.png",
+        pasive: "images/Habilidades/Gangplank/p.png"
+    },
+    {
+        champion: "Garen",
+        q: "images/Habilidades/Garen/q.png",
+        w: "images/Habilidades/Garen/w.png",
+        e: "images/Habilidades/Garen/e.png",
+        r: "images/Habilidades/Garen/r.png",
+        pasive: "images/Habilidades/Garen/p.png"
+    },
+    {
+        champion: "Gnar",
+        q: "images/Habilidades/Gnar/q.png",
+        w: "images/Habilidades/Gnar/w.png",
+        e: "images/Habilidades/Gnar/e.png",
+        r: "images/Habilidades/Gnar/r.png",
+        pasive: "images/Habilidades/Gnar/p.png"
+    },
+    {
+        champion: "Gragas",
+        q: "images/Habilidades/Gragas/q.png",
+        w: "images/Habilidades/Gragas/w.png",
+        e: "images/Habilidades/Gragas/e.png",
+        r: "images/Habilidades/Gragas/r.png",
+        pasive: "images/Habilidades/Gragas/p.png"
+    },
+    {
+        champion: "Graves",
+        q: "images/Habilidades/Graves/q.png",
+        w: "images/Habilidades/Graves/w.png",
+        e: "images/Habilidades/Graves/e.png",
+        r: "images/Habilidades/Graves/r.png",
+        pasive: "images/Habilidades/Graves/p.png"
+    },
+    {
+        champion: "Gwen",
+        q: "images/Habilidades/Gwen/q.png",
+        w: "images/Habilidades/Gwen/w.png",
+        e: "images/Habilidades/Gwen/e.png",
+        r: "images/Habilidades/Gwen/r.png",
+        pasive: "images/Habilidades/Gwen/p.png"
+    },
+    {
+        champion: "Hecarim",
+        q: "images/Habilidades/Hecarim/q.png",
+        w: "images/Habilidades/Hecarim/w.png",
+        e: "images/Habilidades/Hecarim/e.png",
+        r: "images/Habilidades/Hecarim/r.png",
+        pasive: "images/Habilidades/Hecarim/p.png"
+    },
+    {
+        champion: "Heimerdinger",
+        q: "images/Habilidades/Heimerdinger/q.png",
+        w: "images/Habilidades/Heimerdinger/w.png",
+        e: "images/Habilidades/Heimerdinger/e.png",
+        r: "images/Habilidades/Heimerdinger/r.png",
+        pasive: "images/Habilidades/Heimerdinger/p.png"
+    },
+    {
+        champion: "Illaoi",
+        q: "images/Habilidades/Illaoi/q.png",
+        w: "images/Habilidades/Illaoi/w.png",
+        e: "images/Habilidades/Illaoi/e.png",
+        r: "images/Habilidades/Illaoi/r.png",
+        pasive: "images/Habilidades/Illaoi/p.png"
+    },
+    {
+        champion: "Irelia",
+        q: "images/Habilidades/Irelia/q.png",
+        w: "images/Habilidades/Irelia/w.png",
+        e: "images/Habilidades/Irelia/e.png",
+        r: "images/Habilidades/Irelia/r.png",
+        pasive: "images/Habilidades/Irelia/p.png"
+    },
+    {
+        champion: "Ivern",
+        q: "images/Habilidades/Ivern/q.png",
+        w: "images/Habilidades/Ivern/w.png",
+        e: "images/Habilidades/Ivern/e.png",
+        r: "images/Habilidades/Ivern/r.png",
+        pasive: "images/Habilidades/Ivern/p.png"
+    },
+    {
+        champion: "Janna",
+        q: "images/Habilidades/Janna/q.png",
+        w: "images/Habilidades/Janna/w.png",
+        e: "images/Habilidades/Janna/e.png",
+        r: "images/Habilidades/Janna/r.png",
+        pasive: "images/Habilidades/Janna/p.png"
+    },
+    {
+        champion: "Jarvan IV",
+        q: "images/Habilidades/JarvanIV/q.png",
+        w: "images/Habilidades/JarvanIV/w.png",
+        e: "images/Habilidades/JarvanIV/e.png",
+        r: "images/Habilidades/JarvanIV/r.png",
+        pasive: "images/Habilidades/JarvanIV/p.png"
+    },
+    {
+        champion: "Jax",
+        q: "images/Habilidades/Jax/q.png",
+        w: "images/Habilidades/Jax/w.png",
+        e: "images/Habilidades/Jax/e.png",
+        r: "images/Habilidades/Jax/r.png",
+        pasive: "images/Habilidades/Jax/p.png"
+    },
+    {
+        champion: "Jayce",
+        q: "images/Habilidades/Jayce/q.png",
+        w: "images/Habilidades/Jayce/w.png",
+        e: "images/Habilidades/Jayce/e.png",
+        r: "images/Habilidades/Jayce/r.png",
+        pasive: "images/Habilidades/Jayce/p.png"
+    },
+    {
+        champion: "Jhin",
+        q: "images/Habilidades/Jhin/q.png",
+        w: "images/Habilidades/Jhin/w.png",
+        e: "images/Habilidades/Jhin/e.png",
+        r: "images/Habilidades/Jhin/r.png",
+        pasive: "images/Habilidades/Jhin/p.png"
+    },
+    {
+        champion: "Jinx",
+        q: "images/Habilidades/Jinx/q.png",
+        w: "images/Habilidades/Jinx/w.png",
+        e: "images/Habilidades/Jinx/e.png",
+        r: "images/Habilidades/Jinx/r.png",
+        pasive: "images/Habilidades/Jinx/p.png"
+    },
+    {
+        champion: "Kai'Sa",
+        q: "images/Habilidades/KaiSa/q.png",
+        w: "images/Habilidades/KaiSa/w.png",
+        e: "images/Habilidades/KaiSa/e.png",
+        r: "images/Habilidades/KaiSa/r.png",
+        pasive: "images/Habilidades/KaiSa/p.png"
+    },
+    {
+        champion: "Kalista",
+        q: "images/Habilidades/Kalista/q.png",
+        w: "images/Habilidades/Kalista/w.png",
+        e: "images/Habilidades/Kalista/e.png",
+        r: "images/Habilidades/Kalista/r.png",
+        pasive: "images/Habilidades/Kalista/p.png"
+    },
+    {
+        champion: "Karma",
+        q: "images/Habilidades/Karma/q.png",
+        w: "images/Habilidades/Karma/w.png",
+        e: "images/Habilidades/Karma/e.png",
+        r: "images/Habilidades/Karma/r.png",
+        pasive: "images/Habilidades/Karma/p.png"
+    },
+    {
+        champion: "Karthus",
+        q: "images/Habilidades/Karthus/q.png",
+        w: "images/Habilidades/Karthus/w.png",
+        e: "images/Habilidades/Karthus/e.png",
+        r: "images/Habilidades/Karthus/r.png",
+        pasive: "images/Habilidades/Karthus/p.png"
+    },
+    {
+        champion: "Kassadin",
+        q: "images/Habilidades/Kassadin/q.png",
+        w: "images/Habilidades/Kassadin/w.png",
+        e: "images/Habilidades/Kassadin/e.png",
+        r: "images/Habilidades/Kassadin/r.png",
+        pasive: "images/Habilidades/Kassadin/p.png"
+    },
+    {
+        champion: "Katarina",
+        q: "images/Habilidades/Katarina/q.png",
+        w: "images/Habilidades/Katarina/w.png",
+        e: "images/Habilidades/Katarina/e.png",
+        r: "images/Habilidades/Katarina/r.png",
+        pasive: "images/Habilidades/Katarina/p.png"
+    },
+    {
+        champion: "Kayle",
+        q: "images/Habilidades/Kayle/q.png",
+        w: "images/Habilidades/Kayle/w.png",
+        e: "images/Habilidades/Kayle/e.png",
+        r: "images/Habilidades/Kayle/r.png",
+        pasive: "images/Habilidades/Kayle/p.png"
+    },
+    {
+        champion: "Kayn",
+        q: "images/Habilidades/Kayn/q.png",
+        w: "images/Habilidades/Kayn/w.png",
+        e: "images/Habilidades/Kayn/e.png",
+        r: "images/Habilidades/Kayn/r.png",
+        pasive: "images/Habilidades/Kayn/p.png"
+    },
 ]
