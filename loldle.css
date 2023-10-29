@@ -217,3 +217,19 @@
 #quote_guess audio{
     margin : -2rem 0 0 0;
 }
+
+.volver{
+    position:absolute;
+    top: 10vh;
+    left: 5%;
+    background-color: transparent;
+    border: none;
+    /* size: 10em; */
+    display: none;
+}
+
+.volver i{
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}

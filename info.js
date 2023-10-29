@@ -222,7 +222,7 @@ allChampions = [
         img: "Images/Campeones/RiotX_ChampionList_camille.jpg"
     },
     {
-        nombre: "Cassiopea",
+        nombre: "Cassiopeia",
         gender: "Female",
         roles: ["Middle"],
         specie: ["Human", "Magically Altered"],
@@ -2138,7 +2138,227 @@ allQuotes = [
             ["I'll be back soon. Miss me.", "audio/Cassiopeia/Cassiopeia_Quote_8.ogg"]
 
         ]
+    },
+    {
+        champion:"Cho'Gath",
+        quotes:[
+            ["You'd wish the world you know to end! Yeeeesssss...", "audio/Chogath/Chogath_Select.ogg"],
+            ["Afraid of the dark? Wise!", "audio/Chogath/Chogath_Ban.ogg"],
+            ["The daylight! It burns!", "audio/Chogath/Chogath_Quote_1.ogg"],
+            ["For the darkness!", "audio/Chogath/Chogath_Quote_2.ogg"],
+            ["Nom-nom-nom-nom-nom-nom-nom!", "audio/Chogath/Chogath_Quote_3.ogg"],
+            [ "Who will be eaten first?", "audio/Chogath/Chogath_Quote_4.ogg"],
+            ["You shall not escape!", "audio/Chogath/Chogath_Quote_5.ogg"],
+
+        ]
+    },
+    {
+        champion:"Corki",
+        quotes:[
+            ["I'm up to snuff, and gots me an ace machine!", "audio/Corki/Corki_Select.ogg"],
+            ["That just goes to show you you're nothin' but a Whiskey Delta!", "audio/Corki/Corki_Ban.ogg"],
+            ["Zoooom...!", "audio/Corki/Corki_Quote_1.ogg"],
+            ["Speed of heat!", "audio/Corki/Corki_Quote_2.ogg"],
+            ["Consider yourself spanked, nugget!", "audio/Corki/Corki_Quote_3.ogg"],
+            ["Ready to fly!", "audio/Corki/Corki_Quote_4.ogg"],
+            ["Incomin'!", "audio/Corki/Corki_Quote_5.ogg"]
+        ]
     }
 
+
+]
+
+allSkins = [
+    {
+        champion: "Aatrox",
+        
+    }
+]
+
+allHabilities = [
+    {
+        champion: "Aatrox",
+        q: "images/Habilidades/Aatrox/q.png",
+        w: "images/Habilidades/Aatrox/w.png",
+        e: "images/Habilidades/Aatrox/e.png",
+        r: "images/Habilidades/Aatrox/r.png",
+        pasive: "images/Habilidades/Aatrox/p.png"
+    },
+    {
+        champion: "Ahri",
+        q: "images/Habilidades/Ahri/q.png",
+        w: "images/Habilidades/Ahri/w.png",
+        e: "images/Habilidades/Ahri/e.png",
+        r: "images/Habilidades/Ahri/r.png",
+        pasive: "images/Habilidades/Ahri/p.png"
+    },
+    {
+        champion: "Akali",
+        q: "images/Habilidades/Akali/q.png",
+        w: "images/Habilidades/Akali/w.png",
+        e: "images/Habilidades/Akali/e.png",
+        r: "images/Habilidades/Akali/r.png",
+        pasive: "images/Habilidades/Akali/p.png"
+    },
+    {
+        champion: "Akshan",
+        q: "images/Habilidades/Akshan/q.png",
+        w: "images/Habilidades/Akshan/w.png",
+        e: "images/Habilidades/Akshan/e.png",
+        r: "images/Habilidades/Akshan/r.png",
+        pasive: "images/Habilidades/Akshan/p.png"
+    },
+    {
+        champion: "Alistar",
+        q: "images/Habilidades/Alistar/q.png",
+        w: "images/Habilidades/Alistar/w.png",
+        e: "images/Habilidades/Alistar/e.png",
+        r: "images/Habilidades/Alistar/r.png",
+        pasive: "images/Habilidades/Alistar/p.png"
+    },
+    {
+        champion: "Amumu",
+        q: "images/Habilidades/Amumu/q.png",
+        w: "images/Habilidades/Amumu/w.png",
+        e: "images/Habilidades/Amumu/e.png",
+        r: "images/Habilidades/Amumu/r.png",
+        pasive: "images/Habilidades/Amumu/p.png"
+    },
+    {
+        champion: "Anivia",
+        q: "images/Habilidades/Anivia/q.png",
+        w: "images/Habilidades/Anivia/w.png",
+        e: "images/Habilidades/Anivia/e.png",
+        r: "images/Habilidades/Anivia/r.png",
+        pasive: "images/Habilidades/Anivia/p.png"
+    },
+    {
+        champion: "Annie",
+        q: "images/Habilidades/Annie/q.png",
+        w: "images/Habilidades/Annie/w.png",
+        e: "images/Habilidades/Annie/e.png",
+        r: "images/Habilidades/Annie/r.png",
+        pasive: "images/Habilidades/Annie/p.png"
+    },
+    {
+        champion: "Aphelios",
+        q: "images/Habilidades/Aphelios/q.png",
+        w: "images/Habilidades/Aphelios/w.png",
+        e: "images/Habilidades/Aphelios/e.png",
+        r: "images/Habilidades/Aphelios/r.png",
+        pasive: "images/Habilidades/Aphelios/p.png"
+    },
+    {
+        champion: "Ashe",
+        q: "images/Habilidades/Ashe/q.png",
+        w: "images/Habilidades/Ashe/w.png",
+        e: "images/Habilidades/Ashe/e.png",
+        r: "images/Habilidades/Ashe/r.png",
+        pasive: "images/Habilidades/Ashe/p.png"
+    },
+    {
+        champion: "Aurelion Sol",
+        q: "images/Habilidades/AurelionSol/q.png",
+        w: "images/Habilidades/AurelionSol/w.png",
+        e: "images/Habilidades/AurelionSol/e.png",
+        r: "images/Habilidades/AurelionSol/r.png",
+        pasive: "images/Habilidades/AurelionSol/p.png"
+    },
+    {
+        champion: "Azir",
+        q: "images/Habilidades/Azir/q.png",
+        w: "images/Habilidades/Azir/w.png",
+        e: "images/Habilidades/Azir/e.png",
+        r: "images/Habilidades/Azir/r.png",
+        pasive: "images/Habilidades/Azir/p.png"
+    },
+    {
+        champion: "Bard",
+        q: "images/Habilidades/Bard/q.png",
+        w: "images/Habilidades/Bard/w.png",
+        e: "images/Habilidades/Bard/e.png",
+        r: "images/Habilidades/Bard/r.png",
+        pasive: "images/Habilidades/Bard/p.png"
+    },
+    {
+        champion: "Bel'Veth",
+        q: "images/Habilidades/BelVeth/q.png",
+        w: "images/Habilidades/BelVeth/w.png",
+        e: "images/Habilidades/BelVeth/e.png",
+        r: "images/Habilidades/BelVeth/r.png",
+        pasive: "images/Habilidades/BelVeth/p.png"
+    },
+    {
+        champion: "Blitzcrank",
+        q: "images/Habilidades/Blitzcrank/q.png",
+        w: "images/Habilidades/Blitzcrank/w.png",
+        e: "images/Habilidades/Blitzcrank/e.png",
+        r: "images/Habilidades/Blitzcrank/r.png",
+        pasive: "images/Habilidades/Blitzcrank/p.png"
+    },
+    {
+        champion: "Brand",
+        q: "images/Habilidades/Brand/q.png",
+        w: "images/Habilidades/Brand/w.png",
+        e: "images/Habilidades/Brand/e.png",
+        r: "images/Habilidades/Brand/r.png",
+        pasive: "images/Habilidades/Brand/p.png"
+    },
+    {
+        champion: "Braum",
+        q: "images/Habilidades/Braum/q.png",
+        w: "images/Habilidades/Braum/w.png",
+        e: "images/Habilidades/Braum/e.png",
+        r: "images/Habilidades/Braum/r.png",
+        pasive: "images/Habilidades/Braum/p.png"
+    },
+    {
+        champion: "Briar",
+        q: "images/Habilidades/Briar/q.png",
+        w: "images/Habilidades/Briar/w.png",
+        e: "images/Habilidades/Briar/e.png",
+        r: "images/Habilidades/Briar/r.png",
+        pasive: "images/Habilidades/Briar/p.png"
+    },
+    {
+        champion: "Caitlyn",
+        q: "images/Habilidades/Caitlyn/q.png",
+        w: "images/Habilidades/Caitlyn/w.png",
+        e: "images/Habilidades/Caitlyn/e.png",
+        r: "images/Habilidades/Caitlyn/r.png",
+        pasive: "images/Habilidades/Caitlyn/p.png"
+    },
+    {
+        champion: "Camille",
+        q: "images/Habilidades/Camille/q.png",
+        w: "images/Habilidades/Camille/w.png",
+        e: "images/Habilidades/Camille/e.png",
+        r: "images/Habilidades/Camille/r.png",
+        pasive: "images/Habilidades/Camille/p.png"
+    },
+    {
+        champion: "Cassiopeia",
+        q: "images/Habilidades/Cassiopeia/q.png",
+        w: "images/Habilidades/Cassiopeia/w.png",
+        e: "images/Habilidades/Cassiopeia/e.png",
+        r: "images/Habilidades/Cassiopeia/r.png",
+        pasive: "images/Habilidades/Cassiopeia/p.png"
+    },
+    {
+        champion: "Cho'Gath",
+        q: "Images/Habilidades/ChoGath/q.png",
+        w: "images/Habilidades/ChoGath/w.png",
+        e: "images/Habilidades/ChoGath/e.png",
+        r: "images/Habilidades/ChoGath/r.png",
+        pasive: "images/Habilidades/ChoGath/p.png"
+    },
+    {
+        champion: "Corki",
+        q: "images/Habilidades/Corki/q.png",
+        w: "images/Habilidades/Corki/w.png",
+        e: "images/Habilidades/Corki/e.png",
+        r: "images/Habilidades/Corki/r.png",
+        pasive: "images/Habilidades/Corki/p.png"
+    },
 
 ]
