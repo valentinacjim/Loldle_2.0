@@ -111,16 +111,16 @@
     box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.12);
 }
 
-.sugerencia, .sugerencia_quote{
+.sugerencia, .sugerencia_quote, .sugerencia_ability{
     display: grid;
     grid-template-columns: 25% 75%;
     height: 7.5em;
 }
 
-.sugerencia_quote{
+.sugerencia_quote, .sugerencia_ability{
     margin: 0.75em 0 0 0;
     border: 1px solid #ffffff;
-    background-color: #1b441b75;
+    background-color: #5a381475;
 }
 
 .sugerencia:hover{
@@ -186,9 +186,7 @@
     left: 0;
 }
 
-#champion_guess, #quote_guess{
-    display: none;
-}
+
 
 .inicio{
     width: 100%;
@@ -208,7 +206,11 @@
     cursor: pointer;
 }
 
-.quote{
+.minigame{
+    display: none;
+}
+
+.quote, .ability{
     width: 100%;
     height: 15vh;
     border: 1px solid #ffffff;
@@ -232,4 +234,14 @@
     color: white;
     font-size: 2em;
     cursor: pointer;
+}
+
+#keybinds{
+    position: absolute;
+    top: 10vh;
+    right: 5%;
+    background-color: transparent;
+    border: none;
+    /* size: 10em; */
+    display: none;
 }

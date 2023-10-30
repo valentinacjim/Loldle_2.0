@@ -1,4 +1,4 @@
-allChampions = [
+const allChampions = [
     {
         nombre: "Aatrox",
         gender: "Male",
@@ -1819,7 +1819,7 @@ allChampions = [
 ]   
 
 
-allQuotes = [
+const allQuotes = [
 
     {
         champion: "Aatrox",
@@ -2168,7 +2168,7 @@ allQuotes = [
 
 ]
 
-allSkins = [
+const allSkins = [
     {
         champion: "Aatrox",
         skins:[
@@ -2288,485 +2288,608 @@ allSkins = [
     }
 ]
 
-allHabilities = [
+const allAbilities = [
     {
         champion: "Aatrox",
-        q: "images/Habilidades/Aatrox/q.png",
-        w: "images/Habilidades/Aatrox/w.png",
-        e: "images/Habilidades/Aatrox/e.png",
-        r: "images/Habilidades/Aatrox/r.png",
-        pasive: "images/Habilidades/Aatrox/p.png"
+        abilities:[
+        "images/Habilidades/Aatrox/q.png",
+        "images/Habilidades/Aatrox/w.png",
+        "images/Habilidades/Aatrox/e.png",
+        "images/Habilidades/Aatrox/r.png",
+        "images/Habilidades/Aatrox/p.png"
+        ]
+        
     },
     {
         champion: "Ahri",
-        q: "images/Habilidades/Ahri/q.png",
-        w: "images/Habilidades/Ahri/w.png",
-        e: "images/Habilidades/Ahri/e.png",
-        r: "images/Habilidades/Ahri/r.png",
-        pasive: "images/Habilidades/Ahri/p.png"
+        abilities:[
+        "images/Habilidades/Ahri/q.png",
+        "images/Habilidades/Ahri/w.png",
+        "images/Habilidades/Ahri/e.png",
+        "images/Habilidades/Ahri/r.png",
+        "images/Habilidades/Ahri/p.png"
+        ]
     },
     {
         champion: "Akali",
-        q: "images/Habilidades/Akali/q.png",
-        w: "images/Habilidades/Akali/w.png",
-        e: "images/Habilidades/Akali/e.png",
-        r: "images/Habilidades/Akali/r.png",
-        pasive: "images/Habilidades/Akali/p.png"
+        abilities:[
+        "images/Habilidades/Akali/q.png",
+        "images/Habilidades/Akali/w.png",
+        "images/Habilidades/Akali/e.png",
+        "images/Habilidades/Akali/r.png",
+        "images/Habilidades/Akali/p.png"
+        ]
     },
     {
         champion: "Akshan",
-        q: "images/Habilidades/Akshan/q.png",
-        w: "images/Habilidades/Akshan/w.png",
-        e: "images/Habilidades/Akshan/e.png",
-        r: "images/Habilidades/Akshan/r.png",
-        pasive: "images/Habilidades/Akshan/p.png"
+        abilities:[
+        "images/Habilidades/Akshan/q.png",
+        "images/Habilidades/Akshan/w.png",
+        "images/Habilidades/Akshan/e.png",
+        "images/Habilidades/Akshan/r.png",
+        "images/Habilidades/Akshan/p.png"
+        ]
     },
     {
         champion: "Alistar",
-        q: "images/Habilidades/Alistar/q.png",
-        w: "images/Habilidades/Alistar/w.png",
-        e: "images/Habilidades/Alistar/e.png",
-        r: "images/Habilidades/Alistar/r.png",
-        pasive: "images/Habilidades/Alistar/p.png"
+        abilities:[
+        "images/Habilidades/Alistar/q.png",
+        "images/Habilidades/Alistar/w.png",
+        "images/Habilidades/Alistar/e.png",
+        "images/Habilidades/Alistar/r.png",
+        "images/Habilidades/Alistar/p.png"
+        ]
     },
     {
         champion: "Amumu",
-        q: "images/Habilidades/Amumu/q.png",
-        w: "images/Habilidades/Amumu/w.png",
-        e: "images/Habilidades/Amumu/e.png",
-        r: "images/Habilidades/Amumu/r.png",
-        pasive: "images/Habilidades/Amumu/p.png"
+        abilities:[
+        "images/Habilidades/Amumu/q.png",
+        "images/Habilidades/Amumu/w.png",
+        "images/Habilidades/Amumu/e.png",
+        "images/Habilidades/Amumu/r.png",
+        "images/Habilidades/Amumu/p.png"
+        ]
     },
     {
         champion: "Anivia",
-        q: "images/Habilidades/Anivia/q.png",
-        w: "images/Habilidades/Anivia/w.png",
-        e: "images/Habilidades/Anivia/e.png",
-        r: "images/Habilidades/Anivia/r.png",
-        pasive: "images/Habilidades/Anivia/p.png"
+        abilities:[
+        "images/Habilidades/Anivia/q.png",
+        "images/Habilidades/Anivia/w.png",
+        "images/Habilidades/Anivia/e.png",
+        "images/Habilidades/Anivia/r.png",
+        "images/Habilidades/Anivia/p.png"
+        ]
     },
     {
         champion: "Annie",
-        q: "images/Habilidades/Annie/q.png",
-        w: "images/Habilidades/Annie/w.png",
-        e: "images/Habilidades/Annie/e.png",
-        r: "images/Habilidades/Annie/r.png",
-        pasive: "images/Habilidades/Annie/p.png"
+        abilities:[
+        "images/Habilidades/Annie/q.png",
+        "images/Habilidades/Annie/w.png",
+        "images/Habilidades/Annie/e.png",
+        "images/Habilidades/Annie/r.png",
+        "images/Habilidades/Annie/p.png"
+        ]
     },
     {
         champion: "Aphelios",
-        q: "images/Habilidades/Aphelios/q.png",
-        w: "images/Habilidades/Aphelios/w.png",
-        e: "images/Habilidades/Aphelios/e.png",
-        r: "images/Habilidades/Aphelios/r.png",
-        pasive: "images/Habilidades/Aphelios/p.png"
+        abilities:[
+        "images/Habilidades/Aphelios/q.png",
+        "images/Habilidades/Aphelios/w.png",
+        "images/Habilidades/Aphelios/e.png",
+        "images/Habilidades/Aphelios/r.png",
+        "images/Habilidades/Aphelios/p.png"
+        ]
     },
     {
         champion: "Ashe",
-        q: "images/Habilidades/Ashe/q.png",
-        w: "images/Habilidades/Ashe/w.png",
-        e: "images/Habilidades/Ashe/e.png",
-        r: "images/Habilidades/Ashe/r.png",
-        pasive: "images/Habilidades/Ashe/p.png"
+        abilities:[
+        "images/Habilidades/Ashe/q.png",
+        "images/Habilidades/Ashe/w.png",
+        "images/Habilidades/Ashe/e.png",
+        "images/Habilidades/Ashe/r.png",
+        "images/Habilidades/Ashe/p.png"
+        ]
     },
     {
         champion: "Aurelion Sol",
-        q: "images/Habilidades/AurelionSol/q.png",
-        w: "images/Habilidades/AurelionSol/w.png",
-        e: "images/Habilidades/AurelionSol/e.png",
-        r: "images/Habilidades/AurelionSol/r.png",
-        pasive: "images/Habilidades/AurelionSol/p.png"
+        abilities:[
+        "images/Habilidades/AurelionSol/q.png",
+        "images/Habilidades/AurelionSol/w.png",
+        "images/Habilidades/AurelionSol/e.png",
+        "images/Habilidades/AurelionSol/r.png",
+        "images/Habilidades/AurelionSol/p.png"
+        ]
     },
     {
         champion: "Azir",
-        q: "images/Habilidades/Azir/q.png",
-        w: "images/Habilidades/Azir/w.png",
-        e: "images/Habilidades/Azir/e.png",
-        r: "images/Habilidades/Azir/r.png",
-        pasive: "images/Habilidades/Azir/p.png"
+        abilities:[
+        "images/Habilidades/Azir/q.png",
+        "images/Habilidades/Azir/w.png",
+        "images/Habilidades/Azir/e.png",
+        "images/Habilidades/Azir/r.png",
+        "images/Habilidades/Azir/p.png"
+        ]
     },
     {
         champion: "Bard",
-        q: "images/Habilidades/Bard/q.png",
-        w: "images/Habilidades/Bard/w.png",
-        e: "images/Habilidades/Bard/e.png",
-        r: "images/Habilidades/Bard/r.png",
-        pasive: "images/Habilidades/Bard/p.png"
+        abilities:[
+        "images/Habilidades/Bard/q.png",
+        "images/Habilidades/Bard/w.png",
+        "images/Habilidades/Bard/e.png",
+        "images/Habilidades/Bard/r.png",
+        "images/Habilidades/Bard/p.png"
+        ]
     },
     {
         champion: "Bel'Veth",
-        q: "images/Habilidades/BelVeth/q.png",
-        w: "images/Habilidades/BelVeth/w.png",
-        e: "images/Habilidades/BelVeth/e.png",
-        r: "images/Habilidades/BelVeth/r.png",
-        pasive: "images/Habilidades/BelVeth/p.png"
+        abilities:[
+        "images/Habilidades/BelVeth/q.png",
+        "images/Habilidades/BelVeth/w.png",
+        "images/Habilidades/BelVeth/e.png",
+        "images/Habilidades/BelVeth/r.png",
+        "images/Habilidades/BelVeth/p.png"
+        ]
     },
     {
         champion: "Blitzcrank",
-        q: "images/Habilidades/Blitzcrank/q.png",
-        w: "images/Habilidades/Blitzcrank/w.png",
-        e: "images/Habilidades/Blitzcrank/e.png",
-        r: "images/Habilidades/Blitzcrank/r.png",
-        pasive: "images/Habilidades/Blitzcrank/p.png"
+        abilities:[
+        "images/Habilidades/Blitzcrank/q.png",
+        "images/Habilidades/Blitzcrank/w.png",
+        "images/Habilidades/Blitzcrank/e.png",
+        "images/Habilidades/Blitzcrank/r.png",
+        "images/Habilidades/Blitzcrank/p.png"
+        ]
     },
     {
         champion: "Brand",
-        q: "images/Habilidades/Brand/q.png",
-        w: "images/Habilidades/Brand/w.png",
-        e: "images/Habilidades/Brand/e.png",
-        r: "images/Habilidades/Brand/r.png",
-        pasive: "images/Habilidades/Brand/p.png"
+        abilities:[
+        "images/Habilidades/Brand/q.png",
+        "images/Habilidades/Brand/w.png",
+        "images/Habilidades/Brand/e.png",
+        "images/Habilidades/Brand/r.png",
+        "images/Habilidades/Brand/p.png"
+        ]
     },
     {
         champion: "Braum",
-        q: "images/Habilidades/Braum/q.png",
-        w: "images/Habilidades/Braum/w.png",
-        e: "images/Habilidades/Braum/e.png",
-        r: "images/Habilidades/Braum/r.png",
-        pasive: "images/Habilidades/Braum/p.png"
+        abilities:[
+        "images/Habilidades/Braum/q.png",
+        "images/Habilidades/Braum/w.png",
+        "images/Habilidades/Braum/e.png",
+        "images/Habilidades/Braum/r.png",
+        "images/Habilidades/Braum/p.png"
+        ]
     },
     {
         champion: "Briar",
-        q: "images/Habilidades/Briar/q.png",
-        w: "images/Habilidades/Briar/w.png",
-        e: "images/Habilidades/Briar/e.png",
-        r: "images/Habilidades/Briar/r.png",
-        pasive: "images/Habilidades/Briar/p.png"
+        abilities:[
+        "images/Habilidades/Briar/q.png",
+        "images/Habilidades/Briar/w.png",
+        "images/Habilidades/Briar/e.png",
+        "images/Habilidades/Briar/r.png",
+        "images/Habilidades/Briar/p.png"
+        ]
     },
     {
         champion: "Caitlyn",
-        q: "images/Habilidades/Caitlyn/q.png",
-        w: "images/Habilidades/Caitlyn/w.png",
-        e: "images/Habilidades/Caitlyn/e.png",
-        r: "images/Habilidades/Caitlyn/r.png",
-        pasive: "images/Habilidades/Caitlyn/p.png"
+        abilities:[
+        "images/Habilidades/Caitlyn/q.png",
+        "images/Habilidades/Caitlyn/w.png",
+        "images/Habilidades/Caitlyn/e.png",
+        "images/Habilidades/Caitlyn/r.png",
+        "images/Habilidades/Caitlyn/p.png"
+        ]
     },
     {
         champion: "Camille",
-        q: "images/Habilidades/Camille/q.png",
-        w: "images/Habilidades/Camille/w.png",
-        e: "images/Habilidades/Camille/e.png",
-        r: "images/Habilidades/Camille/r.png",
-        pasive: "images/Habilidades/Camille/p.png"
+        abilities:[
+        "images/Habilidades/Camille/q.png",
+        "images/Habilidades/Camille/w.png",
+        "images/Habilidades/Camille/e.png",
+        "images/Habilidades/Camille/r.png",
+        "images/Habilidades/Camille/p.png"
+        ]
     },
     {
         champion: "Cassiopeia",
-        q: "images/Habilidades/Cassiopeia/q.png",
-        w: "images/Habilidades/Cassiopeia/w.png",
-        e: "images/Habilidades/Cassiopeia/e.png",
-        r: "images/Habilidades/Cassiopeia/r.png",
-        pasive: "images/Habilidades/Cassiopeia/p.png"
+        abilities:[
+        "images/Habilidades/Cassiopeia/q.png",
+        "images/Habilidades/Cassiopeia/w.png",
+        "images/Habilidades/Cassiopeia/e.png",
+        "images/Habilidades/Cassiopeia/r.png",
+        "images/Habilidades/Cassiopeia/p.png"
+        ]
     },
     {
         champion: "Cho'Gath",
-        q: "Images/Habilidades/ChoGath/q.png",
-        w: "images/Habilidades/ChoGath/w.png",
-        e: "images/Habilidades/ChoGath/e.png",
-        r: "images/Habilidades/ChoGath/r.png",
-        pasive: "images/Habilidades/ChoGath/p.png"
+        abilities:[
+        "Images/Habilidades/ChoGath/q.png",
+        "images/Habilidades/ChoGath/w.png",
+        "images/Habilidades/ChoGath/e.png",
+        "images/Habilidades/ChoGath/r.png",
+        "images/Habilidades/ChoGath/p.png"
+        ]
     },
     {
         champion: "Corki",
-        q: "images/Habilidades/Corki/q.png",
-        w: "images/Habilidades/Corki/w.png",
-        e: "images/Habilidades/Corki/e.png",
-        r: "images/Habilidades/Corki/r.png",
-        pasive: "images/Habilidades/Corki/p.png"
+        abilities:[
+        "images/Habilidades/Corki/q.png",
+        "images/Habilidades/Corki/w.png",
+        "images/Habilidades/Corki/e.png",
+        "images/Habilidades/Corki/r.png",
+        "images/Habilidades/Corki/p.png"
+        ]
     },
     {
         champion: "Darius",
-        q: "images/Habilidades/Darius/q.png",
-        w: "images/Habilidades/Darius/w.png",
-        e: "images/Habilidades/Darius/e.png",
-        r: "images/Habilidades/Darius/r.png",
-        pasive: "images/Habilidades/Darius/p.png"
+        abilities:[
+        "images/Habilidades/Darius/q.png",
+        "images/Habilidades/Darius/w.png",
+        "images/Habilidades/Darius/e.png",
+        "images/Habilidades/Darius/r.png",
+        "images/Habilidades/Darius/p.png"
+        ]
     },
     {
         champion: "Diana",
-        q: "images/Habilidades/Diana/q.png",
-        w: "images/Habilidades/Diana/w.png",
-        e: "images/Habilidades/Diana/e.png",
-        r: "images/Habilidades/Diana/r.png",
-        pasive: "images/Habilidades/Diana/p.png"
+        abilities:[
+        "images/Habilidades/Diana/q.png",
+        "images/Habilidades/Diana/w.png",
+        "images/Habilidades/Diana/e.png",
+        "images/Habilidades/Diana/r.png",
+        "images/Habilidades/Diana/p.png"
+        ]
     },
     {
         champion: "Dr Mundo",
-        q: "images/Habilidades/DrMundo/q.png",
-        w: "images/Habilidades/DrMundo/w.png",
-        e: "images/Habilidades/DrMundo/e.png",
-        r: "images/Habilidades/DrMundo/r.png",
-        pasive: "images/Habilidades/DrMundo/p.png"
+        abilities:[
+        "images/Habilidades/DrMundo/q.png",
+        "images/Habilidades/DrMundo/w.png",
+        "images/Habilidades/DrMundo/e.png",
+        "images/Habilidades/DrMundo/r.png",
+        "images/Habilidades/DrMundo/p.png"
+        ]
     },
     {
         champion: "Draven",
-        q: "images/Habilidades/Draven/q.png",
-        w: "images/Habilidades/Draven/w.png",
-        e: "images/Habilidades/Draven/e.png",
-        r: "images/Habilidades/Draven/r.png",
-        pasive: "images/Habilidades/Draven/p.png"
+        abilities:[
+        "images/Habilidades/Draven/q.png",
+        "images/Habilidades/Draven/w.png",
+        "images/Habilidades/Draven/e.png",
+        "images/Habilidades/Draven/r.png",
+        "images/Habilidades/Draven/p.png"
+        ]
     },
     {
         champion: "Ekko",
-        q: "images/Habilidades/Ekko/q.png",
-        w: "images/Habilidades/Ekko/w.png",
-        e: "images/Habilidades/Ekko/e.png",
-        r: "images/Habilidades/Ekko/r.png",
-        pasive: "images/Habilidades/Ekko/p.png"
+        abilities:[
+        "images/Habilidades/Ekko/q.png",
+        "images/Habilidades/Ekko/w.png",
+        "images/Habilidades/Ekko/e.png",
+        "images/Habilidades/Ekko/r.png",
+        "images/Habilidades/Ekko/p.png"
+        ]
     },
     {
         champion: "Elise",
-        q: "images/Habilidades/Elise/q.png",
-        w: "images/Habilidades/Elise/w.png",
-        e: "images/Habilidades/Elise/e.png",
-        r: "images/Habilidades/Elise/r.png",
-        pasive: "images/Habilidades/Elise/p.png"
+        abilities:[
+        "images/Habilidades/Elise/q.png",
+        "images/Habilidades/Elise/w.png",
+        "images/Habilidades/Elise/e.png",
+        "images/Habilidades/Elise/r.png",
+        "images/Habilidades/Elise/p.png"
+        ]
     },
     {
         champion: "Evelynn",
-        q: "images/Habilidades/Evelynn/q.png",
-        w: "images/Habilidades/Evelynn/w.png",
-        e: "images/Habilidades/Evelynn/e.png",
-        r: "images/Habilidades/Evelynn/r.png",
-        pasive: "images/Habilidades/Evelynn/p.png"
+        abilities:[
+        "images/Habilidades/Evelynn/q.png",
+        "images/Habilidades/Evelynn/w.png",
+        "images/Habilidades/Evelynn/e.png",
+        "images/Habilidades/Evelynn/r.png",
+        "images/Habilidades/Evelynn/p.png"
+        ]
     },
     {
         champion: "Ezreal",
-        q: "images/Habilidades/Ezreal/q.png",
-        w: "images/Habilidades/Ezreal/w.png",
-        e: "images/Habilidades/Ezreal/e.png",
-        r: "images/Habilidades/Ezreal/r.png",
-        pasive: "images/Habilidades/Ezreal/p.png"
+        abilities:[
+        "images/Habilidades/Ezreal/q.png",
+        "images/Habilidades/Ezreal/w.png",
+        "images/Habilidades/Ezreal/e.png",
+        "images/Habilidades/Ezreal/r.png",
+        "images/Habilidades/Ezreal/p.png"
+        ]
     },
     {
         champion: "Fiddlesticks",
-        q: "images/Habilidades/Fiddlesticks/q.png",
-        w: "images/Habilidades/Fiddlesticks/w.png",
-        e: "images/Habilidades/Fiddlesticks/e.png",
-        r: "images/Habilidades/Fiddlesticks/r.png",
-        pasive: "images/Habilidades/Fiddlesticks/p.png"
+        abilities:[
+        "images/Habilidades/Fiddlesticks/q.png",
+        "images/Habilidades/Fiddlesticks/w.png",
+        "images/Habilidades/Fiddlesticks/e.png",
+        "images/Habilidades/Fiddlesticks/r.png",
+        "images/Habilidades/Fiddlesticks/p.png"
+        ]
     },
     {
         champion: "Fiora",
-        q: "images/Habilidades/Fiora/q.png",
-        w: "images/Habilidades/Fiora/w.png",
-        e: "images/Habilidades/Fiora/e.png",
-        r: "images/Habilidades/Fiora/r.png",
-        pasive: "images/Habilidades/Fiora/p.png"
+        abilities:[
+        "images/Habilidades/Fiora/q.png",
+        "images/Habilidades/Fiora/w.png",
+        "images/Habilidades/Fiora/e.png",
+        "images/Habilidades/Fiora/r.png",
+        "images/Habilidades/Fiora/p.png"
+        ]
     },
     {
         champion: "Fizz",
-        q: "images/Habilidades/Fizz/q.png",
-        w: "images/Habilidades/Fizz/w.png",
-        e: "images/Habilidades/Fizz/e.png",
-        r: "images/Habilidades/Fizz/r.png",
-        pasive: "images/Habilidades/Fizz/p.png"
+        abilities:[
+        "images/Habilidades/Fizz/q.png",
+        "images/Habilidades/Fizz/w.png",
+        "images/Habilidades/Fizz/e.png",
+        "images/Habilidades/Fizz/r.png",
+        "images/Habilidades/Fizz/p.png"
+        ]
     },
     {
         champion: "Galio",
-        q: "images/Habilidades/Galio/q.png",
-        w: "images/Habilidades/Galio/w.png",
-        e: "images/Habilidades/Galio/e.png",
-        r: "images/Habilidades/Galio/r.png",
-        pasive: "images/Habilidades/Galio/p.png"
+        abilities:[
+        "images/Habilidades/Galio/q.png",
+        "images/Habilidades/Galio/w.png",
+        "images/Habilidades/Galio/e.png",
+        "images/Habilidades/Galio/r.png",
+        "images/Habilidades/Galio/p.png"
+        ]
     },
     {
         champion: "Gangplank",
-        q: "images/Habilidades/Gangplank/q.png",
-        w: "images/Habilidades/Gangplank/w.png",
-        e: "images/Habilidades/Gangplank/e.png",
-        r: "images/Habilidades/Gangplank/r.png",
-        pasive: "images/Habilidades/Gangplank/p.png"
+        abilities:[
+        "images/Habilidades/Gangplank/q.png",
+        "images/Habilidades/Gangplank/w.png",
+        "images/Habilidades/Gangplank/e.png",
+        "images/Habilidades/Gangplank/r.png",
+        "images/Habilidades/Gangplank/p.png"
+        ]
     },
     {
         champion: "Garen",
-        q: "images/Habilidades/Garen/q.png",
-        w: "images/Habilidades/Garen/w.png",
-        e: "images/Habilidades/Garen/e.png",
-        r: "images/Habilidades/Garen/r.png",
-        pasive: "images/Habilidades/Garen/p.png"
+        abilities:[
+        "images/Habilidades/Garen/q.png",
+        "images/Habilidades/Garen/w.png",
+        "images/Habilidades/Garen/e.png",
+        "images/Habilidades/Garen/r.png",
+        "images/Habilidades/Garen/p.png"
+        ]
     },
     {
         champion: "Gnar",
-        q: "images/Habilidades/Gnar/q.png",
-        w: "images/Habilidades/Gnar/w.png",
-        e: "images/Habilidades/Gnar/e.png",
-        r: "images/Habilidades/Gnar/r.png",
-        pasive: "images/Habilidades/Gnar/p.png"
+        abilities:[
+        "images/Habilidades/Gnar/q.png",
+        "images/Habilidades/Gnar/w.png",
+        "images/Habilidades/Gnar/e.png",
+        "images/Habilidades/Gnar/r.png",
+        "images/Habilidades/Gnar/p.png"
+        ]
     },
     {
         champion: "Gragas",
-        q: "images/Habilidades/Gragas/q.png",
-        w: "images/Habilidades/Gragas/w.png",
-        e: "images/Habilidades/Gragas/e.png",
-        r: "images/Habilidades/Gragas/r.png",
-        pasive: "images/Habilidades/Gragas/p.png"
+        abilities:[
+        "images/Habilidades/Gragas/q.png",
+        "images/Habilidades/Gragas/w.png",
+        "images/Habilidades/Gragas/e.png",
+        "images/Habilidades/Gragas/r.png",
+        "images/Habilidades/Gragas/p.png"
+        ]
     },
     {
         champion: "Graves",
-        q: "images/Habilidades/Graves/q.png",
-        w: "images/Habilidades/Graves/w.png",
-        e: "images/Habilidades/Graves/e.png",
-        r: "images/Habilidades/Graves/r.png",
-        pasive: "images/Habilidades/Graves/p.png"
+        abilities:[
+        "images/Habilidades/Graves/q.png",
+        "images/Habilidades/Graves/w.png",
+        "images/Habilidades/Graves/e.png",
+        "images/Habilidades/Graves/r.png",
+        "images/Habilidades/Graves/p.png"
+        ]
     },
     {
         champion: "Gwen",
-        q: "images/Habilidades/Gwen/q.png",
-        w: "images/Habilidades/Gwen/w.png",
-        e: "images/Habilidades/Gwen/e.png",
-        r: "images/Habilidades/Gwen/r.png",
-        pasive: "images/Habilidades/Gwen/p.png"
+        abilities:[
+        "images/Habilidades/Gwen/q.png",
+        "images/Habilidades/Gwen/w.png",
+        "images/Habilidades/Gwen/e.png",
+        "images/Habilidades/Gwen/r.png",
+        "images/Habilidades/Gwen/p.png"
+        ]
     },
     {
         champion: "Hecarim",
-        q: "images/Habilidades/Hecarim/q.png",
-        w: "images/Habilidades/Hecarim/w.png",
-        e: "images/Habilidades/Hecarim/e.png",
-        r: "images/Habilidades/Hecarim/r.png",
-        pasive: "images/Habilidades/Hecarim/p.png"
+        abilities:[
+        "images/Habilidades/Hecarim/q.png",
+        "images/Habilidades/Hecarim/w.png",
+        "images/Habilidades/Hecarim/e.png",
+        "images/Habilidades/Hecarim/r.png",
+        "images/Habilidades/Hecarim/p.png"
+        ]
     },
     {
         champion: "Heimerdinger",
-        q: "images/Habilidades/Heimerdinger/q.png",
-        w: "images/Habilidades/Heimerdinger/w.png",
-        e: "images/Habilidades/Heimerdinger/e.png",
-        r: "images/Habilidades/Heimerdinger/r.png",
-        pasive: "images/Habilidades/Heimerdinger/p.png"
+        abilities:[
+        "images/Habilidades/Heimerdinger/q.png",
+        "images/Habilidades/Heimerdinger/w.png",
+        "images/Habilidades/Heimerdinger/e.png",
+        "images/Habilidades/Heimerdinger/r.png",
+        "images/Habilidades/Heimerdinger/p.png"
+        ]
     },
     {
         champion: "Illaoi",
-        q: "images/Habilidades/Illaoi/q.png",
-        w: "images/Habilidades/Illaoi/w.png",
-        e: "images/Habilidades/Illaoi/e.png",
-        r: "images/Habilidades/Illaoi/r.png",
-        pasive: "images/Habilidades/Illaoi/p.png"
+        abilities:[
+        "images/Habilidades/Illaoi/q.png",
+        "images/Habilidades/Illaoi/w.png",
+        "images/Habilidades/Illaoi/e.png",
+        "images/Habilidades/Illaoi/r.png",
+        "images/Habilidades/Illaoi/p.png"
+        ]
     },
     {
         champion: "Irelia",
-        q: "images/Habilidades/Irelia/q.png",
-        w: "images/Habilidades/Irelia/w.png",
-        e: "images/Habilidades/Irelia/e.png",
-        r: "images/Habilidades/Irelia/r.png",
-        pasive: "images/Habilidades/Irelia/p.png"
+        abilities:[
+        "images/Habilidades/Irelia/q.png",
+        "images/Habilidades/Irelia/w.png",
+        "images/Habilidades/Irelia/e.png",
+        "images/Habilidades/Irelia/r.png",
+        "images/Habilidades/Irelia/p.png"
+        ]
     },
     {
         champion: "Ivern",
-        q: "images/Habilidades/Ivern/q.png",
-        w: "images/Habilidades/Ivern/w.png",
-        e: "images/Habilidades/Ivern/e.png",
-        r: "images/Habilidades/Ivern/r.png",
-        pasive: "images/Habilidades/Ivern/p.png"
+        abilities:[
+        "images/Habilidades/Ivern/q.png",
+        "images/Habilidades/Ivern/w.png",
+        "images/Habilidades/Ivern/e.png",
+        "images/Habilidades/Ivern/r.png",
+        "images/Habilidades/Ivern/p.png"
+        ]
     },
     {
         champion: "Janna",
-        q: "images/Habilidades/Janna/q.png",
-        w: "images/Habilidades/Janna/w.png",
-        e: "images/Habilidades/Janna/e.png",
-        r: "images/Habilidades/Janna/r.png",
-        pasive: "images/Habilidades/Janna/p.png"
+        abilities:[
+        "images/Habilidades/Janna/q.png",
+        "images/Habilidades/Janna/w.png",
+        "images/Habilidades/Janna/e.png",
+        "images/Habilidades/Janna/r.png",
+        "images/Habilidades/Janna/p.png"
+        ]
     },
     {
         champion: "Jarvan IV",
-        q: "images/Habilidades/JarvanIV/q.png",
-        w: "images/Habilidades/JarvanIV/w.png",
-        e: "images/Habilidades/JarvanIV/e.png",
-        r: "images/Habilidades/JarvanIV/r.png",
-        pasive: "images/Habilidades/JarvanIV/p.png"
+        abilities:[
+        "images/Habilidades/JarvanIV/q.png",
+        "images/Habilidades/JarvanIV/w.png",
+        "images/Habilidades/JarvanIV/e.png",
+        "images/Habilidades/JarvanIV/r.png",
+        "images/Habilidades/JarvanIV/p.png"
+        ]
     },
     {
         champion: "Jax",
-        q: "images/Habilidades/Jax/q.png",
-        w: "images/Habilidades/Jax/w.png",
-        e: "images/Habilidades/Jax/e.png",
-        r: "images/Habilidades/Jax/r.png",
-        pasive: "images/Habilidades/Jax/p.png"
+        abilities:[
+        "images/Habilidades/Jax/q.png",
+        "images/Habilidades/Jax/w.png",
+        "images/Habilidades/Jax/e.png",
+        "images/Habilidades/Jax/r.png",
+        "images/Habilidades/Jax/p.png"
+        ]
     },
     {
         champion: "Jayce",
-        q: "images/Habilidades/Jayce/q.png",
-        w: "images/Habilidades/Jayce/w.png",
-        e: "images/Habilidades/Jayce/e.png",
-        r: "images/Habilidades/Jayce/r.png",
-        pasive: "images/Habilidades/Jayce/p.png"
+        abilities:[
+        "images/Habilidades/Jayce/q.png",
+        "images/Habilidades/Jayce/w.png",
+        "images/Habilidades/Jayce/e.png",
+        "images/Habilidades/Jayce/r.png",
+        "images/Habilidades/Jayce/p.png"
+        ]
     },
     {
         champion: "Jhin",
-        q: "images/Habilidades/Jhin/q.png",
-        w: "images/Habilidades/Jhin/w.png",
-        e: "images/Habilidades/Jhin/e.png",
-        r: "images/Habilidades/Jhin/r.png",
-        pasive: "images/Habilidades/Jhin/p.png"
+        abilities:[
+        "images/Habilidades/Jhin/q.png",
+        "images/Habilidades/Jhin/w.png",
+        "images/Habilidades/Jhin/e.png",
+        "images/Habilidades/Jhin/r.png",
+        "images/Habilidades/Jhin/p.png"
+        ]
     },
     {
         champion: "Jinx",
-        q: "images/Habilidades/Jinx/q.png",
-        w: "images/Habilidades/Jinx/w.png",
-        e: "images/Habilidades/Jinx/e.png",
-        r: "images/Habilidades/Jinx/r.png",
-        pasive: "images/Habilidades/Jinx/p.png"
+        abilities:[
+        "images/Habilidades/Jinx/q.png",
+        "images/Habilidades/Jinx/w.png",
+        "images/Habilidades/Jinx/e.png",
+        "images/Habilidades/Jinx/r.png",
+        "images/Habilidades/Jinx/p.png"
+        ]
     },
     {
         champion: "Kai'Sa",
-        q: "images/Habilidades/KaiSa/q.png",
-        w: "images/Habilidades/KaiSa/w.png",
-        e: "images/Habilidades/KaiSa/e.png",
-        r: "images/Habilidades/KaiSa/r.png",
-        pasive: "images/Habilidades/KaiSa/p.png"
+        abilities:[
+        "images/Habilidades/KaiSa/q.png",
+        "images/Habilidades/KaiSa/w.png",
+        "images/Habilidades/KaiSa/e.png",
+        "images/Habilidades/KaiSa/r.png",
+        "images/Habilidades/KaiSa/p.png"
+        ]   
     },
     {
         champion: "Kalista",
-        q: "images/Habilidades/Kalista/q.png",
-        w: "images/Habilidades/Kalista/w.png",
-        e: "images/Habilidades/Kalista/e.png",
-        r: "images/Habilidades/Kalista/r.png",
-        pasive: "images/Habilidades/Kalista/p.png"
+        abilities:[
+        "images/Habilidades/Kalista/q.png",
+        "images/Habilidades/Kalista/w.png",
+        "images/Habilidades/Kalista/e.png",
+        "images/Habilidades/Kalista/r.png",
+        "images/Habilidades/Kalista/p.png"
+        ]
     },
     {
         champion: "Karma",
-        q: "images/Habilidades/Karma/q.png",
-        w: "images/Habilidades/Karma/w.png",
-        e: "images/Habilidades/Karma/e.png",
-        r: "images/Habilidades/Karma/r.png",
-        pasive: "images/Habilidades/Karma/p.png"
+        abilities:[
+        "images/Habilidades/Karma/q.png",
+        "images/Habilidades/Karma/w.png",
+        "images/Habilidades/Karma/e.png",
+        "images/Habilidades/Karma/r.png",
+        "images/Habilidades/Karma/p.png"
+        ]
     },
     {
         champion: "Karthus",
-        q: "images/Habilidades/Karthus/q.png",
-        w: "images/Habilidades/Karthus/w.png",
-        e: "images/Habilidades/Karthus/e.png",
-        r: "images/Habilidades/Karthus/r.png",
-        pasive: "images/Habilidades/Karthus/p.png"
+        abilities:[
+        "images/Habilidades/Karthus/q.png",
+        "images/Habilidades/Karthus/w.png",
+        "images/Habilidades/Karthus/e.png",
+        "images/Habilidades/Karthus/r.png",
+        "images/Habilidades/Karthus/p.png"
+        ]
     },
     {
         champion: "Kassadin",
-        q: "images/Habilidades/Kassadin/q.png",
-        w: "images/Habilidades/Kassadin/w.png",
-        e: "images/Habilidades/Kassadin/e.png",
-        r: "images/Habilidades/Kassadin/r.png",
-        pasive: "images/Habilidades/Kassadin/p.png"
+        abilities:[
+        "images/Habilidades/Kassadin/q.png",
+        "images/Habilidades/Kassadin/w.png",
+        "images/Habilidades/Kassadin/e.png",
+        "images/Habilidades/Kassadin/r.png",
+        "images/Habilidades/Kassadin/p.png"
+        ]
     },
     {
         champion: "Katarina",
-        q: "images/Habilidades/Katarina/q.png",
-        w: "images/Habilidades/Katarina/w.png",
-        e: "images/Habilidades/Katarina/e.png",
-        r: "images/Habilidades/Katarina/r.png",
-        pasive: "images/Habilidades/Katarina/p.png"
+        abilities:[
+        "images/Habilidades/Katarina/q.png",
+        "images/Habilidades/Katarina/w.png",
+        "images/Habilidades/Katarina/e.png",
+        "images/Habilidades/Katarina/r.png",
+        "images/Habilidades/Katarina/p.png"
+        ]
     },
     {
         champion: "Kayle",
-        q: "images/Habilidades/Kayle/q.png",
-        w: "images/Habilidades/Kayle/w.png",
-        e: "images/Habilidades/Kayle/e.png",
-        r: "images/Habilidades/Kayle/r.png",
-        pasive: "images/Habilidades/Kayle/p.png"
+        abilities:[
+        "images/Habilidades/Kayle/q.png",
+        "images/Habilidades/Kayle/w.png",
+        "images/Habilidades/Kayle/e.png",
+        "images/Habilidades/Kayle/r.png",
+        "images/Habilidades/Kayle/p.png"
+        ]
     },
     {
         champion: "Kayn",
-        q: "images/Habilidades/Kayn/q.png",
-        w: "images/Habilidades/Kayn/w.png",
-        e: "images/Habilidades/Kayn/e.png",
-        r: "images/Habilidades/Kayn/r.png",
-        pasive: "images/Habilidades/Kayn/p.png"
+        abilities:[
+        "images/Habilidades/Kayn/q.png",
+        "images/Habilidades/Kayn/w.png",
+        "images/Habilidades/Kayn/e.png",
+        "images/Habilidades/Kayn/r.png",
+        "images/Habilidades/Kayn/p.png"
+        ]
     },
 ]
+
+const ABILITIES = ["q", "w", "e", "r", "passive"];

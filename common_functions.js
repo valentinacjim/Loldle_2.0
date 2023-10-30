@@ -31,3 +31,32 @@ function find(buscador_champion) {
     let champion = allChampions.find(champion => filter(champion.nombre) === nombre);
     return champion;
 }
+
+
+function guess_function(buscador, div, sugerencia, realNumber){
+    let champion = find(buscador.value);
+    create_champion_banner(champion, div, sugerencia);
+
+    if (champion === allChampions[realNumber]){
+        document.getElementsByClassName(sugerencia)[0].style.backgroundColor = green;
+    }   
+
+}
+
+function create_champion_banner(champion, div, sugerencia) {
+    for (let i=0; i<allChampions.length; i++){
+        if (allChampions[i].nombre === champion) champion = allChampions[i];
+        
+    }
+    let champion_banner = document.getElementById(div);
+    let champion_field = document.createElement("div");
+    champion_field.innerHTML = "<div class='"+ sugerencia + "'>\n" +
+    "    <div class='champion_container'>" +
+    "        <img alt='champion' src=" + champion.img+ ">\n" +
+    "    </div>\n" +
+    "    <div class='titulo_champion_busq'>\n" +
+    "        <p><b>" + champion.nombre + "</b></p>" +
+    "    </div>\n" +
+    "</div>"
+    champion_banner.after(champion_field);
+}

@@ -1,3 +1,19 @@
+// CHAMPION GAME ///
+
+let guess = allChampions[Math.floor(Math.random() * allChampions.length)];   
+
+let buscador_champion = document.getElementById("input_text_champion");
+let sugerencias_champion = document.getElementsByClassName("container-suggestions")[0];
+let loldlecontent = document.getElementById("loldle-content");
+
+
+
+// let guesses = 0;
+let inicio = document.getElementsByClassName("title")[8];
+let boton = document.getElementById("buscador");
+boton.addEventListener("click", guess_champion_function);
+
+
 buscador_champion.addEventListener("input", function() {
     if (buscador_champion.value.length === 0){
         sugerencias_champion.innerHTML = '';

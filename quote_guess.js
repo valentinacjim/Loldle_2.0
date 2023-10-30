@@ -1,3 +1,19 @@
+// QUOTE GAME///
+
+let championNames = Object.keys(allQuotes);
+let randomChampion = championNames[Math.floor(Math.random() * championNames.length)];
+let quotesArray = allQuotes[randomChampion].quotes;
+let randomQuote = quotesArray[Math.floor(Math.random() * quotesArray.length)];
+
+let quote_text = document.getElementById("champion_quote");
+quote_text.innerHTML = randomQuote[0];
+
+let quote_audio = document.getElementById("quote_audio");
+quote_audio.src = randomQuote[1];
+
+let buscador_quote = document.getElementById("input_text_quote");
+let sugerencias_quote = document.getElementsByClassName("container-suggestions")[1];
+
 buscador_quote.addEventListener("input", function() {
     if (buscador_quote.value.length === 0){
         // sugerencias.style.opacity = "0";
@@ -12,37 +28,9 @@ buscador_quote.addEventListener("input", function() {
         sugerencia_quote[i].addEventListener("click", function () {
             buscador_quote.value = sugerencia_quote[i].getElementsByClassName("titulo_champion_busq")[0].innerText;
             sugerencias_champion.style.display = "none";
-            guess_quote_function();
+            let buscador_champion_quote = document.getElementById("input_text_quote");
+            guess_function(buscador_champion_quote, "quote_guesses", "sugerencia_quote", randomChampion)
         });
     }
 });
 
-let buscador_champion_quote = document.getElementById("input_text_quote");
-
-function guess_quote_function() {
-    let champion = find(buscador_champion_quote.value);
-    create_champion_banner(champion);
-
-    if (champion === allChampions[randomChampion]){
-        document.getElementsByClassName("sugerencia_quote")[0].style.backgroundColor = "green";
-    }
-
-}
-
-function create_champion_banner(champion) {
-    for (let i=0; i<allChampions.length; i++){
-        if (allChampions[i].nombre === champion) champion = allChampions[i];
-        
-    }
-    let champion_banner = document.getElementById("quote_guesses");
-    let champion_field = document.createElement("div");
-    champion_field.innerHTML = "<div class='sugerencia_quote'>\n" +
-    "    <div class='champion_container'>" +
-    "        <img alt='champion' src=" + champion.img+ ">\n" +
-    "    </div>\n" +
-    "    <div class='titulo_champion_busq'>\n" +
-    "        <p><b>" + champion.nombre + "</b></p>" +
-    "    </div>\n" +
-    "</div>"
-    champion_banner.after(champion_field);
-}
