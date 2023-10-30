@@ -36,10 +36,13 @@ function find(buscador_champion) {
 function guess_function(buscador, div, sugerencia, realNumber){
     let champion = find(buscador.value);
     create_champion_banner(champion, div, sugerencia);
-
+    console.log(champion);
+    console.log(allChampions[realNumber]);
     if (champion === allChampions[realNumber]){
         document.getElementsByClassName(sugerencia)[0].style.backgroundColor = green;
+        return true;
     }   
+    return false;
 
 }
 

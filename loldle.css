@@ -111,13 +111,13 @@
     box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.12);
 }
 
-.sugerencia, .sugerencia_quote, .sugerencia_ability{
+.sugerencia, .sugerencia_quote, .sugerencia_ability, .sugerencia_skin{
     display: grid;
     grid-template-columns: 25% 75%;
     height: 7.5em;
 }
 
-.sugerencia_quote, .sugerencia_ability{
+.sugerencia_quote, .sugerencia_ability, .sugerencia_skin{
     margin: 0.75em 0 0 0;
     border: 1px solid #ffffff;
     background-color: #5a381475;
@@ -212,7 +212,7 @@
 
 .quote, .ability{
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     border: 1px solid #ffffff;
 }
 
@@ -237,11 +237,35 @@
 }
 
 #keybinds{
-    position: absolute;
-    top: 10vh;
-    right: 5%;
     background-color: transparent;
-    border: none;
-    /* size: 10em; */
     display: none;
+    border: 1px solid #ffffff;
+    margin: 1rem;
+    padding: 0 0 1rem;
+}
+
+.key{
+    width: 10%;
+    height: 5rem;
+    border: 1px solid #ffffff;
+    margin: 1rem 0.5rem;
+    font-size: medium;
+    background-color: #8a5e0e;
+    color: #ffffff;
+    padding: 0 0 1rem;
+    cursor: pointer;   
+}
+
+.skin{
+    width: 100%;
+    height: 40vh;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+    border: 1px solid #ffffff;
+}
+
+#champion_skin_img{
+    /* width: 100%; */
+    height: 30vh;
+    
 }

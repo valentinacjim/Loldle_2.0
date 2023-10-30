@@ -196,8 +196,6 @@ const allChampions = [
         region: ["Noxus"],
         year: "2023",
         img: "Images/Campeones/RiotX_ChampionList_briar.jpg"
-
-
     },
     {
         nombre: "Caitlyn",
@@ -376,28 +374,6 @@ const allChampions = [
         img: "Images/Campeones/RiotX_ChampionList_fizz.jpg"
     },
     {
-        nombre: "Miss Fortune",
-        gender: "Female",
-        roles: ["Bottom"],
-        specie: ["Human"],
-        resource: "Mana",
-        range: "Ranged",
-        region: ["Bilgewater"],
-        year: "2010",
-        img: "Images/Campeones/RiotX_ChampionList_missfortune.jpg"
-    },
-    {
-        nombre: "Twisted Fate",
-        gender: "Male",
-        roles: ["Middle"],
-        specie: ["Human", "Magicborn"],
-        resource: "Mana",
-        range: "Ranged",
-        region: ["Bilgewater"],
-        year: "2009",
-        img: "Images/Campeones/RiotX_ChampionList_twistedfate.jpg"
-    },
-    {
         nombre: "Galio",
         gender: "Male",
         roles: ["Middle", "Support"],
@@ -473,17 +449,6 @@ const allChampions = [
         region: ["Camavor", "Shadow Isles"],
         year: "2021",
         img: "Images/Campeones/RiotX_ChampionList_gwen.jpg"
-    },
-    {
-        nombre: "Renata Glasc",
-        gender: "Female",
-        roles: ["Support"],
-        specie: ["Chemically Altered", "Human"],
-        resource: "Mana",
-        range: "Ranged",
-        region: ["Zaun"],
-        year: "2022",
-        img: "Images/Campeones/RiotX_ChampionList_renata_glasc.jpg"
     },
     {
         nombre: "Hecarim",
@@ -915,6 +880,17 @@ const allChampions = [
         img: "Images/Campeones/RiotX_ChampionList_milio.jpg"
     },
     {
+        nombre: "Miss Fortune",
+        gender: "Female",
+        roles: ["Bottom"],
+        specie: ["Human"],
+        resource: "Mana",
+        range: "Ranged",
+        region: ["Bilgewater"],
+        year: "2010",
+        img: "Images/Campeones/RiotX_ChampionList_missfortune.jpg"
+    },
+    {
         nombre: "Mordekaiser",
         gender: "Male",
         roles: ["Top"],
@@ -1166,6 +1142,17 @@ const allChampions = [
         region: ["Noxus"],
         year: "2020",
         img: "Images/Campeones/RiotX_ChampionList_rell.jpg"
+    },
+    {
+        nombre: "Renata Glasc",
+        gender: "Female",
+        roles: ["Support"],
+        specie: ["Chemically Altered", "Human"],
+        resource: "Mana",
+        range: "Ranged",
+        region: ["Zaun"],
+        year: "2022",
+        img: "Images/Campeones/RiotX_ChampionList_renata_glasc.jpg"
     },
     {
         nombre: "Renekton",
@@ -1496,6 +1483,17 @@ const allChampions = [
         region: ["Freljord"],
         year: "2009",
         img: "Images/Campeones/RiotX_ChampionList_tryndamere.jpg"
+    },
+    {
+        nombre: "Twisted Fate",
+        gender: "Male",
+        roles: ["Middle"],
+        specie: ["Human", "Magicborn"],
+        resource: "Mana",
+        range: "Ranged",
+        region: ["Bilgewater"],
+        year: "2009",
+        img: "Images/Campeones/RiotX_ChampionList_twistedfate.jpg"
     },
     {
         nombre: "Twitch",
@@ -1980,20 +1978,20 @@ const allQuotes = [
     {
         champion: "Aurelion Sol",
         quotes:[
-            ["Naturally.", "audio/AurelionSol/AurelionSol_Select.ogg"],
-            ["Hmph. Tragic.", "audio/AurelionSol/AurelionSol_Ban.ogg"],
-            ["In a constantly shifting cosmos, a world this static is... refreshing.", "audio/AurelionSol/AurelionSol_Quote_1.ogg"],
-            ["They call me a comet. They call me a dragon. They have no words for my true form.", "audio/AurelionSol/AurelionSol_Quote_2.ogg"],
-            ["Why does anyone wish upon a star?", "audio/AurelionSol/AurelionSol_Quote_3.ogg"],
-            ["I grieve for every star never born.", "audio/AurelionSol/AurelionSol_Quote_4.ogg"],
-            ["My stars shine for all.", "audio/AurelionSol/AurelionSol_Quote_5.ogg"],
-            ["Sometimes, the stars gaze back.", "audio/AurelionSol/AurelionSol_Quote_6.ogg"],
-            ["A star's birth is as violent as it is breathtaking.", "audio/AurelionSol/AurelionSol_Quote_7.ogg"],
-            ["Make a wish. See if the stars answer. I'll wait.",    "audio/AurelionSol/AurelionSol_Quote_8.ogg"],
-            ["I make entropy look good.", "audio/AurelionSol/AurelionSol_Quote_9.ogg"],
-            ["Defending yourself? Adorably futile.", "audio/AurelionSol/AurelionSol_Quote_10.ogg"],
-            ["Plenty more to come.", "audio/AurelionSol/AurelionSol_Quote_11.ogg"],
-            ["Time to gather the necessary matter!", "audio/AurelionSol/AurelionSol_Quote_12.ogg"],
+            ["Naturally.", "audio/Aurelion_Sol/Aurelion_Sol_Select.ogg"],
+            ["Hmph. Tragic.", "audio/Aurelion_Sol/Aurelion_Sol_Ban.ogg"],
+            ["In a constantly shifting cosmos, a world this static is... refreshing.", "audio/Aurelion_Sol/Aurelion_Sol_Quote_1.ogg"],
+            ["They call me a comet. They call me a dragon. They have no words for my true form.", "audio/Aurelion_Sol/Aurelion_Sol_Quote_2.ogg"],
+            ["Why does anyone wish upon a star?", "audio/Aurelion_Sol/Aurelion_Sol_Quote_3.ogg"],
+            ["I grieve for every star never born.", "audio/Aurelion_Sol/Aurelion_Sol_Quote_4.ogg"],
+            ["My stars shine for all.", "audio/Aurelion_Sol/Aurelion_Sol_Quote_5.ogg"],
+            ["Sometimes, the stars gaze back.", "audio/Aurelion_Sol/Aurelion_Sol_Quote_6.ogg"],
+            ["A star's birth is as violent as it is breathtaking.", "audio/Aurelion_Sol/Aurelion_Sol_Quote_7.ogg"],
+            ["Make a wish. See if the stars answer. I'll wait.",    "audio/Aurelion_Sol/Aurelion_Sol_Quote_8.ogg"],
+            ["I make entropy look good.", "audio/Aurelion_Sol/Aurelion_Sol_Quote_9.ogg"],
+            ["Defending yourself? Adorably futile.", "audio/Aurelion_Sol/Aurelion_Sol_Quote_10.ogg"],
+            ["Plenty more to come.", "audio/Aurelion_Sol/Aurelion_Sol_Quote_11.ogg"],
+            ["Time to gather the necessary matter!", "audio/Aurelion_Sol/Aurelion_Sol_Quote_12.ogg"],
         ]
     },
     {
@@ -2142,13 +2140,13 @@ const allQuotes = [
     {
         champion:"Cho'Gath",
         quotes:[
-            ["You'd wish the world you know to end! Yeeeesssss...", "audio/Chogath/Chogath_Select.ogg"],
-            ["Afraid of the dark? Wise!", "audio/Chogath/Chogath_Ban.ogg"],
-            ["The daylight! It burns!", "audio/Chogath/Chogath_Quote_1.ogg"],
-            ["For the darkness!", "audio/Chogath/Chogath_Quote_2.ogg"],
-            ["Nom-nom-nom-nom-nom-nom-nom!", "audio/Chogath/Chogath_Quote_3.ogg"],
-            [ "Who will be eaten first?", "audio/Chogath/Chogath_Quote_4.ogg"],
-            ["You shall not escape!", "audio/Chogath/Chogath_Quote_5.ogg"],
+            ["You'd wish the world you know to end! Yeeeesssss...", "audio/ChoGath/ChoGath_Select.ogg"],
+            ["Afraid of the dark? Wise!", "audio/ChoGath/ChoGath_Ban.ogg"],
+            ["The daylight! It burns!", "audio/ChoGath/ChoGath_Quote_1.ogg"],
+            ["For the darkness!", "audio/ChoGath/ChoGath_Quote_2.ogg"],
+            ["Nom-nom-nom-nom-nom-nom-nom!", "audio/ChoGath/ChoGath_Quote_3.ogg"],
+            [ "Who will be eaten first?", "audio/ChoGath/ChoGath_Quote_4.ogg"],
+            ["You shall not escape!", "audio/ChoGath/ChoGath_Quote_5.ogg"],
 
         ]
     },

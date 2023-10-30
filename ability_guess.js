@@ -2,8 +2,10 @@
 
 let championNames_abilities = Object.keys(allAbilities);
 let randomChampion_abilities = championNames_abilities[Math.floor(Math.random() * championNames_abilities.length)];
+console.log(randomChampion_abilities);
 let abilitiesArray = allAbilities[randomChampion_abilities].abilities;
-let randomAbilityName = abilitiesArray[Math.floor(Math.random() * abilitiesArray.length)];
+let numberAbility = Math.floor(Math.random() * abilitiesArray.length);
+let randomAbilityName = abilitiesArray[numberAbility];
 
 let champion_ability_img = document.getElementById("champion_ability_img");
 champion_ability_img.src = randomAbilityName;
@@ -25,8 +27,20 @@ buscador_ability.addEventListener("input", function() {
             buscador_ability.value = sugerencia_ability[i].getElementsByClassName("titulo_champion_busq")[0].innerText;
             sugerencias_ability.style.display = "none";
             let buscador_champion_ability = document.getElementById("input_text_ability");
-            guess_function(buscador_champion_ability, "ability_guesses", "sugerencia_ability", randomChampion_abilities)
+            if (guess_function(buscador_champion_ability, "ability_guesses", "sugerencia_ability", randomChampion_abilities)){
+                document.getElementById("keybinds").style.display = "block";
+            } 
         });
     }
 });
 
+function correct_button(ability){
+    console.log(ability);
+    console.log(numberAbility);
+    if(ability === numberAbility){
+        document.getElementsByClassName("key")[ability].style.backgroundColor = green;
+    }
+    else{
+        document.getElementsByClassName("key")[ability].style.backgroundColor = red;
+    }
+}

@@ -88,13 +88,40 @@
 
             <div id="keybinds">
                 <h3>Which ability is this?</h3>
-                    <button class="key">Q</button>
-                    <button class="key">W</button>
-                    <button class="key">E</button>
-                    <button class="key">R</button>
+                    <button onclick="correct_button(0)" class="key">Q</button>
+                    <button onclick="correct_button(1)" class="key">W</button>
+                    <button onclick="correct_button(2)" class="key">E</button>
+                    <button onclick="correct_button(3)" class="key">R</button>
+                    <button onclick="correct_button(4)" class="key">Passive</button>
             </div>
+            </div>
+
+
         </div>
 
+        <div class="minigame" id="skin_guess">
+            <div class="container">
+                <div class="skin">
+                    <h3>Which champion has this skin?</h3>
+                    <img id="champion_skin_img" src="">
+                </div>
+            <hr>
+            <div class="search-input-box">
+                <input id="input_text_skin" type="text" placeholder="Introduce campeón" />
+                <i class="fa-solid fa-arrow-right" id="buscador"></i>
+            </div>
+            <div class="container-suggestions">
+                <div class = "sugerencia"></div>
+            </div>
+            <div id="skin_guesses">
+                
+            </div>
+            <div>
+                
+            </div>
+
+            </div>
+        </div>
 
     </div>
 </body>
@@ -102,6 +129,7 @@
 <script src="champion_guess.js"></script>
 <script src="quote_guess.js"></script>
 <script src="ability_guess.js"></script>
+<script src="skin_guess.js"></script>
 <script src="loldle.js"></script>
 <script src="common_functions.js"></script>
 </html>
