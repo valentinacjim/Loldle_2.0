@@ -12,6 +12,8 @@ let loldlecontent = document.getElementById("loldle-content");
 let inicio = document.getElementsByClassName("title")[8];
 let boton = document.getElementById("buscador");
 boton.addEventListener("click", guess_champion_function);
+let allChampions_champion = [...allChampions];
+
 
 
 buscador_champion.addEventListener("input", function() {
@@ -26,16 +28,19 @@ buscador_champion.addEventListener("input", function() {
     for (let i=0; i<sugerencia_champion.length; i++){
         sugerencia_champion[i].addEventListener("click", function () {
             buscador_champion.value = sugerencia_champion[i].getElementsByClassName("titulo_champion_busq")[0].innerText;
-            sugerencias_champion.style.display = "none";
+            sugerencias_champion.style.d.length
             guess_champion_function();
         });
     }
 });
 
 function guess_champion_function() {
-    let champion = find(buscador_champion.value);
+    let champion = find(buscador_champion.value, allChampions_champion);
+    allChampions_champion.splice(allChampions_champion.indexOf(champion), 1);
+    console.log(allChampions_champion);
 
     loldlecontent.style.display = "grid";
+    buscador_champion.value = "";
    
     roles = array_to_string(champion.roles);
     species = array_to_string(champion.specie);

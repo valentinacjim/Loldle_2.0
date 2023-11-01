@@ -13,6 +13,8 @@ champion_skin_img.src = randomSkinName[1];
 let buscador_skin = document.getElementById("input_text_skin");
 let sugerencias_skin = document.getElementsByClassName("container-suggestions")[3];
 
+let allChampions_skins = [...allChampions];
+
 buscador_skin.addEventListener("input", function() {
     if (buscador_skin.value.length === 0){
         sugerencias_skin.innerHTML = '';
@@ -27,10 +29,13 @@ buscador_skin.addEventListener("input", function() {
             buscador_skin.value = sugerencia_skin[i].getElementsByClassName("titulo_champion_busq")[0].innerText;
             sugerencias_skin.style.display = "none";
             let buscador_champion_skin = document.getElementById("input_text_skin");
-            if (!guess_function(buscador_champion_skin, "skin_guesses", "sugerencia_skin", randomChampion_skins)){
+            if (!guess_function(buscador_champion_skin, "skin_guesses", "sugerencia_skin", randomChampion_skins, allChampions_skins)){
                 heigth -= 5;
                 champion_skin_img.style.height = heigth + "vh";
-            } 
+            }else{
+                champion_skin_img.style.height = "100%";
+                
+            }
         });
     }
 });

@@ -25,18 +25,22 @@ function crear_sugerencia(champion, container) {
     }
 }
 
-function find(buscador_champion) {
+function find(buscador_champion, allChampions) {
     let nombre = filter(buscador_champion);
+    
     buscador_champion = "";
     let champion = allChampions.find(champion => filter(champion.nombre) === nombre);
+    console.log("allChampions",allChampions)
     return champion;
 }
 
 
-function guess_function(buscador, div, sugerencia, realNumber){
-    let champion = find(buscador.value);
+function guess_function(buscador, div, sugerencia, realNumber, allChampions_to_find){
+    let champion = find(buscador.value, allChampions_to_find);
+    allChampions_to_find.splice(allChampions_to_find.indexOf(champion), 1);
+    console.log("allChampions_to_find",allChampions_to_find);
     create_champion_banner(champion, div, sugerencia);
-    
+    buscador.value = "";
     if (champion === allChampions[realNumber]){
         document.getElementsByClassName(sugerencia)[0].style.backgroundColor = green;
         return true;

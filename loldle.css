@@ -187,8 +187,8 @@
 }
 
 #skin_container{
-    width: 30vh;
-    height: 30vh;
+    height: 220px;
+    width: 373px;
     overflow: hidden;
     margin: 0 auto;
 }

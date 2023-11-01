@@ -13,6 +13,8 @@ champion_ability_img.style.filter = "grayscale(100%)";
 let deg = ROTATIONS[Math.floor(Math.random() * ROTATIONS.length)];
 champion_ability_img.style.rotate = deg;
 
+let allChampions_abilities = [...allChampions];
+console.log(allChampions_abilities);
 
 let buscador_ability = document.getElementById("input_text_ability");
 let sugerencias_ability = document.getElementsByClassName("container-suggestions")[2];
@@ -31,7 +33,7 @@ buscador_ability.addEventListener("input", function() {
             buscador_ability.value = sugerencia_ability[i].getElementsByClassName("titulo_champion_busq")[0].innerText;
             sugerencias_ability.style.display = "none";
             let buscador_champion_ability = document.getElementById("input_text_ability");
-            if (guess_function(buscador_champion_ability, "ability_guesses", "sugerencia_ability", randomChampion_abilities)){
+            if (guess_function(buscador_champion_ability, "ability_guesses", "sugerencia_ability", randomChampion_abilities, allChampions_abilities)){
                 document.getElementById("keybinds").style.display = "block";
             } 
         });

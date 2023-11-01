@@ -11,6 +11,8 @@ quote_text.innerHTML = randomQuote[0];
 let quote_audio = document.getElementById("quote_audio");
 quote_audio.src = randomQuote[1];
 
+let allChampions_quote = [...allChampions];
+
 let buscador_quote = document.getElementById("input_text_quote");
 let sugerencias_quote = document.getElementsByClassName("container-suggestions")[1];
 
@@ -29,7 +31,7 @@ buscador_quote.addEventListener("input", function() {
             buscador_quote.value = sugerencia_quote[i].getElementsByClassName("titulo_champion_busq")[0].innerText;
             sugerencias_champion.style.display = "none";
             let buscador_champion_quote = document.getElementById("input_text_quote");
-            guess_function(buscador_champion_quote, "quote_guesses", "sugerencia_quote", randomChampion)
+            guess_function(buscador_champion_quote, "quote_guesses", "sugerencia_quote", randomChampion, allChampions_quote);
         });
     }
 });
