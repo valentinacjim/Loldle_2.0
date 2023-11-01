@@ -2,13 +2,17 @@
 
 let championNames_abilities = Object.keys(allAbilities);
 let randomChampion_abilities = championNames_abilities[Math.floor(Math.random() * championNames_abilities.length)];
-console.log(randomChampion_abilities);
 let abilitiesArray = allAbilities[randomChampion_abilities].abilities;
 let numberAbility = Math.floor(Math.random() * abilitiesArray.length);
 let randomAbilityName = abilitiesArray[numberAbility];
 
 let champion_ability_img = document.getElementById("champion_ability_img");
 champion_ability_img.src = randomAbilityName;
+champion_ability_img.alt = randomAbilityName;
+champion_ability_img.style.filter = "grayscale(100%)";
+let deg = ROTATIONS[Math.floor(Math.random() * ROTATIONS.length)];
+champion_ability_img.style.rotate = deg;
+
 
 let buscador_ability = document.getElementById("input_text_ability");
 let sugerencias_ability = document.getElementsByClassName("container-suggestions")[2];

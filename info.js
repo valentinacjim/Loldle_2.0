@@ -2890,4 +2890,4 @@ const allAbilities = [
     },
 ]
 
-const ABILITIES = ["q", "w", "e", "r", "passive"];
+const ROTATIONS = ["0deg", "90deg", "180deg", "270deg"]

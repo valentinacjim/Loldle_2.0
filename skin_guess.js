@@ -5,7 +5,7 @@ let randomChampion_skins = championNames_skins[Math.floor(Math.random() * champi
 let skinsArray = allSkins[randomChampion_skins].skins;
 let numberSkin = Math.floor(Math.random() * skinsArray.length);
 let randomSkinName = skinsArray[numberSkin];
-console.log(randomSkinName);
+let heigth = 90;
 
 let champion_skin_img = document.getElementById("champion_skin_img");
 champion_skin_img.src = randomSkinName[1];
@@ -27,9 +27,11 @@ buscador_skin.addEventListener("input", function() {
             buscador_skin.value = sugerencia_skin[i].getElementsByClassName("titulo_champion_busq")[0].innerText;
             sugerencias_skin.style.display = "none";
             let buscador_champion_skin = document.getElementById("input_text_skin");
-            if (guess_function(buscador_champion_skin, "skin_guesses", "sugerencia_skin", randomChampion_skins)){
-                // document.getElementById("skin").style.display = "block";
+            if (!guess_function(buscador_champion_skin, "skin_guesses", "sugerencia_skin", randomChampion_skins)){
+                heigth -= 5;
+                champion_skin_img.style.height = heigth + "vh";
             } 
         });
     }
 });
+
