@@ -1,7 +1,10 @@
 import os
 
 directorio = 'Images/Campeones/Skins/'
-champion = 'Twitch'
+
+
+
+champion = 'Zyra'
 
 for archivo in os.listdir(directorio+champion):
     archivo_name = archivo.split(']')[2]
